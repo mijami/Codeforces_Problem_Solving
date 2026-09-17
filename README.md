@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 217 | 22 |
+| 262 | 24 |
 
 ---
 
@@ -14,26 +14,28 @@
 
 - [*special](#special) (2)
 - [Uncategorized](#uncategorized) (6)
-- [binary search](#binary-search) (10)
-- [bitmasks](#bitmasks) (4)
-- [brute force](#brute-force) (43)
-- [constructive algorithms](#constructive-algorithms) (34)
-- [data structures](#data-structures) (13)
-- [dfs and similar](#dfs-and-similar) (1)
-- [dp](#dp) (3)
+- [binary search](#binary-search) (12)
+- [bitmasks](#bitmasks) (5)
+- [brute force](#brute-force) (52)
+- [combinatorics](#combinatorics) (2)
+- [constructive algorithms](#constructive-algorithms) (45)
+- [data structures](#data-structures) (19)
+- [dfs and similar](#dfs-and-similar) (2)
+- [dp](#dp) (6)
 - [expression parsing](#expression-parsing) (1)
 - [games](#games) (4)
 - [geometry](#geometry) (3)
-- [greedy](#greedy) (72)
+- [graphs](#graphs) (1)
+- [greedy](#greedy) (92)
 - [hashing](#hashing) (2)
-- [implementation](#implementation) (102)
-- [math](#math) (90)
-- [number theory](#number-theory) (23)
-- [probabilities](#probabilities) (2)
-- [sortings](#sortings) (25)
-- [strings](#strings) (20)
-- [trees](#trees) (1)
-- [two pointers](#two-pointers) (6)
+- [implementation](#implementation) (120)
+- [math](#math) (105)
+- [number theory](#number-theory) (28)
+- [probabilities](#probabilities) (3)
+- [sortings](#sortings) (31)
+- [strings](#strings) (25)
+- [trees](#trees) (2)
+- [two pointers](#two-pointers) (7)
 
 ---
 
@@ -60,6 +62,8 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 230B | [T-primes](https://codeforces.com/contest/230/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/230/B%20-%20T-primes/solution.cpp) |
+| 580B | [Kefa and Company](https://codeforces.com/contest/580/problem/B) | 1500 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/580/B%20-%20Kefa%20and%20Company/solution.cpp) |
+| 706B | [Interesting drink](https://codeforces.com/contest/706/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/706/B%20-%20Interesting%20drink/solution.cpp) |
 | 1099B | [Squares and Segments](https://codeforces.com/contest/1099/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1099/B%20-%20Squares%20and%20Segments/solution.cpp) |
 | 1366A | [Shovels and Swords](https://codeforces.com/contest/1366/problem/A) | 1100 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1366/A%20-%20Shovels%20and%20Swords/solution.cpp) |
 | 1463A | [Dungeon](https://codeforces.com/contest/1463/problem/A) | 1100 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1463/A%20-%20Dungeon/solution.cpp) |
@@ -74,6 +78,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 476B | [Dreamoon and WiFi](https://codeforces.com/contest/476/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/476/B%20-%20Dreamoon%20and%20WiFi/solution.cpp) |
 | 1567B | [MEXor Mixup](https://codeforces.com/contest/1567/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1567/B%20-%20MEXor%20Mixup/solution.cpp) |
 | 1635A | [Min Or Sum](https://codeforces.com/contest/1635/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1635/A%20-%20Min%20Or%20Sum/solution.cpp) |
 | 1696A | [NIT orz!](https://codeforces.com/contest/1696/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1696/A%20-%20NIT%20orz!/solution.cpp) |
@@ -91,7 +96,9 @@
 | 231A | [Team](https://codeforces.com/contest/231/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/231/A%20-%20Team/solution.cpp) |
 | 236A | [Boy or Girl](https://codeforces.com/contest/236/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/236/A%20-%20Boy%20or%20Girl/solution.cpp) |
 | 268A | [Games](https://codeforces.com/contest/268/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/268/A%20-%20Games/solution.cpp) |
+| 476B | [Dreamoon and WiFi](https://codeforces.com/contest/476/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/476/B%20-%20Dreamoon%20and%20WiFi/solution.cpp) |
 | 483A | [Counterexample ](https://codeforces.com/contest/483/problem/A) | 1100 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/483/A%20-%20Counterexample%20/solution.cpp) |
+| 496B | [Secret Combination](https://codeforces.com/contest/496/problem/B) | 1500 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/496/B%20-%20Secret%20Combination/solution.cpp) |
 | 732A | [Buy a Shovel](https://codeforces.com/contest/732/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/732/A%20-%20Buy%20a%20Shovel/solution.cpp) |
 | 799A | [Carrot Cakes](https://codeforces.com/contest/799/problem/A) | 1100 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/799/A%20-%20Carrot%20Cakes/solution.cpp) |
 | 855A | [Tom Riddle's Diary](https://codeforces.com/contest/855/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/855/A%20-%20Tom%20Riddle's%20Diary/solution.cpp) |
@@ -104,6 +111,7 @@
 | 1512A | [Spy Detected!](https://codeforces.com/contest/1512/problem/A) | 800 | [GNU C11](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1512/A%20-%20Spy%20Detected!/solution.c) |
 | 1520A | [Do Not Be Distracted!](https://codeforces.com/contest/1520/problem/A) | 800 | [GNU C11](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1520/A%20-%20Do%20Not%20Be%20Distracted!/solution.c) |
 | 1535A | [Fair Playoff](https://codeforces.com/contest/1535/problem/A) | 800 | [GNU C11](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1535/A%20-%20Fair%20Playoff/solution.c) |
+| 1557A | [Ezzat and Two Subsequences](https://codeforces.com/contest/1557/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1557/A%20-%20Ezzat%20and%20Two%20Subsequences/solution.cpp) |
 | 1598A | [Computer Game](https://codeforces.com/contest/1598/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1598/A%20-%20Computer%20Game/solution.cpp) |
 | 1607C | [Minimum Extraction](https://codeforces.com/contest/1607/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1607/C%20-%20Minimum%20Extraction/solution.cpp) |
 | 1617B | [GCD Problem](https://codeforces.com/contest/1617/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1617/B%20-%20GCD%20Problem/solution.cpp) |
@@ -126,11 +134,26 @@
 | 1692F | [3SUM](https://codeforces.com/contest/1692/problem/F) | 1300 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1692/F%20-%203SUM/solution.cpp) |
 | 1698A | [XOR Mixup](https://codeforces.com/contest/1698/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1698/A%20-%20XOR%20Mixup/solution.cpp) |
 | 1698C | [3SUM Closure](https://codeforces.com/contest/1698/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1698/C%20-%203SUM%20Closure/solution.cpp) |
+| 1703A | [YES or YES?](https://codeforces.com/contest/1703/problem/A) | 800 | [C++17 (GCC 9-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1703/A%20-%20YES%20or%20YES%3F/solution.cpp) |
+| 1703C | [Cypher](https://codeforces.com/contest/1703/problem/C) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1703/C%20-%20Cypher/solution.cpp) |
+| 1703D | [Double Strings](https://codeforces.com/contest/1703/problem/D) | 1100 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1703/D%20-%20Double%20Strings/solution.cpp) |
+| 1709A | [Three Doors](https://codeforces.com/contest/1709/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1709/A%20-%20Three%20Doors/solution.cpp) |
+| 1714E | [Add Modulo 10](https://codeforces.com/contest/1714/problem/E) | 1400 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1714/E%20-%20Add%20Modulo%2010/solution.cpp) |
+| 1728A | [Colored Balls: Revisited](https://codeforces.com/contest/1728/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1728/A%20-%20Colored%20Balls%3A%20Revisited/solution.cpp) |
+
+### combinatorics
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 476B | [Dreamoon and WiFi](https://codeforces.com/contest/476/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/476/B%20-%20Dreamoon%20and%20WiFi/solution.cpp) |
+| 1715C | [Monoblock](https://codeforces.com/contest/1715/problem/C) | 1700 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1715/C%20-%20Monoblock/solution.cpp) |
 
 ### constructive algorithms
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 496B | [Secret Combination](https://codeforces.com/contest/496/problem/B) | 1500 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/496/B%20-%20Secret%20Combination/solution.cpp) |
+| 544B | [Sea and Islands](https://codeforces.com/contest/544/problem/B) | 1400 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/544/B%20-%20Sea%20and%20Islands/solution.cpp) |
 | 682A | [Alyona and Numbers](https://codeforces.com/contest/682/problem/A) | 1100 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/682/A%20-%20Alyona%20and%20Numbers/solution.cpp) |
 | 732A | [Buy a Shovel](https://codeforces.com/contest/732/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/732/A%20-%20Buy%20a%20Shovel/solution.cpp) |
 | 766A | [Mahmoud and Longest Uncommon Subsequence](https://codeforces.com/contest/766/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/766/A%20-%20Mahmoud%20and%20Longest%20Uncommon%20Subsequence/solution.cpp) |
@@ -161,10 +184,19 @@
 | 1684B | [Z mod X = C](https://codeforces.com/contest/1684/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1684/B%20-%20Z%20mod%20X%20%3D%20C/solution.cpp) |
 | 1690A | [Print a Pedestal (Codeforces logo?)](https://codeforces.com/contest/1690/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1690/A%20-%20Print%20a%20Pedestal%20(Codeforces%20logo%3F)/solution.cpp) |
 | 1691B | [Shoe Shuffling](https://codeforces.com/contest/1691/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1691/B%20-%20Shoe%20Shuffling/solution.cpp) |
+| 1694B | [Paranoid String](https://codeforces.com/contest/1694/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1694/B%20-%20Paranoid%20String/solution.cpp) |
 | 1698B | [Rising Sand](https://codeforces.com/contest/1698/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1698/B%20-%20Rising%20Sand/solution.cpp) |
 | 1699A | [The Third Three Number Problem](https://codeforces.com/contest/1699/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1699/A%20-%20The%20Third%20Three%20Number%20Problem/solution.cpp) |
 | 1700A | [Optimal Path](https://codeforces.com/contest/1700/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1700/A%20-%20Optimal%20Path/solution.cpp) |
 | 1700B | [Palindromic Numbers ](https://codeforces.com/contest/1700/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1700/B%20-%20Palindromic%20Numbers%20/solution.cpp) |
+| 1705B | [Mark the Dust Sweeper](https://codeforces.com/contest/1705/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1705/B%20-%20Mark%20the%20Dust%20Sweeper/solution.cpp) |
+| 1711A | [Perfect Permutation](https://codeforces.com/contest/1711/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1711/A%20-%20Perfect%20Permutation/solution.cpp) |
+| 1712B | [Woeful Permutation](https://codeforces.com/contest/1712/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1712/B%20-%20Woeful%20Permutation/solution.cpp) |
+| 1715A | [Crossmarket](https://codeforces.com/contest/1715/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1715/A%20-%20Crossmarket/solution.cpp) |
+| 1715B | [Beautiful Array](https://codeforces.com/contest/1715/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1715/B%20-%20Beautiful%20Array/solution.cpp) |
+| 1716B | [Permutation Chain](https://codeforces.com/contest/1716/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1716/B%20-%20Permutation%20Chain/solution.cpp) |
+| 1728B | [Best Permutation](https://codeforces.com/contest/1728/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1728/B%20-%20Best%20Permutation/solution.cpp) |
+| 1729C | [Jumping on Tiles](https://codeforces.com/contest/1729/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1729/C%20-%20Jumping%20on%20Tiles/solution.cpp) |
 
 ### data structures
 
@@ -183,20 +215,30 @@
 | 1689B | [Mystic Permutation](https://codeforces.com/contest/1689/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1689/B%20-%20Mystic%20Permutation/solution.cpp) |
 | 1690C | [Restoring the Duration of Tasks](https://codeforces.com/contest/1690/problem/C) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1690/C%20-%20Restoring%20the%20Duration%20of%20Tasks/solution.cpp) |
 | 1698C | [3SUM Closure](https://codeforces.com/contest/1698/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1698/C%20-%203SUM%20Closure/solution.cpp) |
+| 1703B | [ICPC Balloons](https://codeforces.com/contest/1703/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1703/B%20-%20ICPC%20Balloons/solution.cpp) |
+| 1703D | [Double Strings](https://codeforces.com/contest/1703/problem/D) | 1100 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1703/D%20-%20Double%20Strings/solution.cpp) |
+| 1709B | [Also Try Minecraft](https://codeforces.com/contest/1709/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1709/B%20-%20Also%20Try%20Minecraft/solution.cpp) |
+| 1714B | [Remove Prefix](https://codeforces.com/contest/1714/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1714/B%20-%20Remove%20Prefix/solution.cpp) |
+| 1715C | [Monoblock](https://codeforces.com/contest/1715/problem/C) | 1700 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1715/C%20-%20Monoblock/solution.cpp) |
+| 1722C | [Word Game](https://codeforces.com/contest/1722/problem/C) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1722/C%20-%20Word%20Game/solution.cpp) |
 
 ### dfs and similar
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 580C | [Kefa and Park](https://codeforces.com/contest/580/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/580/C%20-%20Kefa%20and%20Park/solution.cpp) |
 | 1598A | [Computer Game](https://codeforces.com/contest/1598/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1598/A%20-%20Computer%20Game/solution.cpp) |
 
 ### dp
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 476B | [Dreamoon and WiFi](https://codeforces.com/contest/476/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/476/B%20-%20Dreamoon%20and%20WiFi/solution.cpp) |
+| 706B | [Interesting drink](https://codeforces.com/contest/706/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/706/B%20-%20Interesting%20drink/solution.cpp) |
 | 1598A | [Computer Game](https://codeforces.com/contest/1598/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1598/A%20-%20Computer%20Game/solution.cpp) |
 | 1660C | [Get an Even String](https://codeforces.com/contest/1660/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1660/C%20-%20Get%20an%20Even%20String/solution.cpp) |
 | 1686B | [Odd Subarrays](https://codeforces.com/contest/1686/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1686/B%20-%20Odd%20Subarrays/solution.cpp) |
+| 1709B | [Also Try Minecraft](https://codeforces.com/contest/1709/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1709/B%20-%20Also%20Try%20Minecraft/solution.cpp) |
 
 ### expression parsing
 
@@ -221,6 +263,12 @@
 | 1622A | [Construct a Rectangle](https://codeforces.com/contest/1622/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1622/A%20-%20Construct%20a%20Rectangle/solution.cpp) |
 | 1642A | [Hard Way](https://codeforces.com/contest/1642/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1642/A%20-%20Hard%20Way/solution.cpp) |
 
+### graphs
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 580C | [Kefa and Park](https://codeforces.com/contest/580/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/580/C%20-%20Kefa%20and%20Park/solution.cpp) |
+
 ### greedy
 
 | # | Problem | Difficulty | Solution |
@@ -234,6 +282,7 @@
 | 810B | [Summer sell-off](https://codeforces.com/contest/810/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/810/B%20-%20Summer%20sell-off/solution.cpp) |
 | 903C | [Boxes Packing](https://codeforces.com/contest/903/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/903/C%20-%20Boxes%20Packing/solution.cpp) |
 | 1209A | [Paint the Numbers](https://codeforces.com/contest/1209/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1209/A%20-%20Paint%20the%20Numbers/solution.cpp) |
+| 1294C | [Product of Three Numbers](https://codeforces.com/contest/1294/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1294/C%20-%20Product%20of%20Three%20Numbers/solution.cpp) |
 | 1360A | [Minimal Square](https://codeforces.com/contest/1360/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1360/A%20-%20Minimal%20Square/solution.cpp) |
 | 1366A | [Shovels and Swords](https://codeforces.com/contest/1366/problem/A) | 1100 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1366/A%20-%20Shovels%20and%20Swords/solution.cpp) |
 | 1370A | [Maximum GCD](https://codeforces.com/contest/1370/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1370/A%20-%20Maximum%20GCD/solution.cpp) |
@@ -245,10 +294,12 @@
 | 1493A | [Anti-knapsack](https://codeforces.com/contest/1493/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1493/A%20-%20Anti-knapsack/solution.cpp) |
 | 1529A | [Eshag Loves Big Arrays](https://codeforces.com/contest/1529/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1529/A%20-%20Eshag%20Loves%20Big%20Arrays/solution.cpp) |
 | 1537A | [Arithmetic Array](https://codeforces.com/contest/1537/problem/A) | 800 | [GNU C11](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1537/A%20-%20Arithmetic%20Array/solution.c) |
+| 1550A | [Find The Array](https://codeforces.com/contest/1550/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1550/A%20-%20Find%20The%20Array/solution.cpp) |
 | 1551A | [Polycarp and Coins](https://codeforces.com/contest/1551/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1551/A%20-%20Polycarp%20and%20Coins/solution.cpp) |
 | 1566A | [Median Maximization](https://codeforces.com/contest/1566/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1566/A%20-%20Median%20Maximization/solution.cpp) |
 | 1567B | [MEXor Mixup](https://codeforces.com/contest/1567/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1567/B%20-%20MEXor%20Mixup/solution.cpp) |
 | 1592A | [Gamer Hemose](https://codeforces.com/contest/1592/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1592/A%20-%20Gamer%20Hemose/solution.cpp) |
+| 1606C | [Banknotes](https://codeforces.com/contest/1606/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1606/C%20-%20Banknotes/solution.cpp) |
 | 1609A | [Divide and Multiply](https://codeforces.com/contest/1609/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1609/A%20-%20Divide%20and%20Multiply/solution.cpp) |
 | 1629A | [Download More RAM](https://codeforces.com/contest/1629/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1629/A%20-%20Download%20More%20RAM/solution.cpp) |
 | 1631A | [Min Max Swap](https://codeforces.com/contest/1631/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1631/A%20-%20Min%20Max%20Swap/solution.cpp) |
@@ -291,12 +342,29 @@
 | 1691A | [Beat The Odds](https://codeforces.com/contest/1691/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1691/A%20-%20Beat%20The%20Odds/solution.cpp) |
 | 1691B | [Shoe Shuffling](https://codeforces.com/contest/1691/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1691/B%20-%20Shoe%20Shuffling/solution.cpp) |
 | 1692B | [All Distinct](https://codeforces.com/contest/1692/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1692/B%20-%20All%20Distinct/solution.cpp) |
+| 1694B | [Paranoid String](https://codeforces.com/contest/1694/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1694/B%20-%20Paranoid%20String/solution.cpp) |
 | 1696A | [NIT orz!](https://codeforces.com/contest/1696/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1696/A%20-%20NIT%20orz!/solution.cpp) |
 | 1696B | [NIT Destroys the Universe](https://codeforces.com/contest/1696/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1696/B%20-%20NIT%20Destroys%20the%20Universe/solution.cpp) |
 | 1697A | [Parkway Walk](https://codeforces.com/contest/1697/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1697/A%20-%20Parkway%20Walk/solution.cpp) |
 | 1697B | [Promo](https://codeforces.com/contest/1697/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1697/B%20-%20Promo/solution.cpp) |
 | 1698B | [Rising Sand](https://codeforces.com/contest/1698/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1698/B%20-%20Rising%20Sand/solution.cpp) |
 | 1700A | [Optimal Path](https://codeforces.com/contest/1700/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1700/A%20-%20Optimal%20Path/solution.cpp) |
+| 1705A | [Mark the Photographer](https://codeforces.com/contest/1705/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1705/A%20-%20Mark%20the%20Photographer/solution.cpp) |
+| 1705B | [Mark the Dust Sweeper](https://codeforces.com/contest/1705/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1705/B%20-%20Mark%20the%20Dust%20Sweeper/solution.cpp) |
+| 1709A | [Three Doors](https://codeforces.com/contest/1709/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1709/A%20-%20Three%20Doors/solution.cpp) |
+| 1712A | [Wonderful Permutation](https://codeforces.com/contest/1712/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1712/A%20-%20Wonderful%20Permutation/solution.cpp) |
+| 1712B | [Woeful Permutation](https://codeforces.com/contest/1712/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1712/B%20-%20Woeful%20Permutation/solution.cpp) |
+| 1712C | [Sort Zero](https://codeforces.com/contest/1712/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1712/C%20-%20Sort%20Zero/solution.cpp) |
+| 1714B | [Remove Prefix](https://codeforces.com/contest/1714/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1714/B%20-%20Remove%20Prefix/solution.cpp) |
+| 1714C | [Minimum  Varied Number](https://codeforces.com/contest/1714/problem/C) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1714/C%20-%20Minimum%20%20Varied%20Number/solution.cpp) |
+| 1715A | [Crossmarket](https://codeforces.com/contest/1715/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1715/A%20-%20Crossmarket/solution.cpp) |
+| 1715B | [Beautiful Array](https://codeforces.com/contest/1715/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1715/B%20-%20Beautiful%20Array/solution.cpp) |
+| 1716A | [2-3 Moves](https://codeforces.com/contest/1716/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1716/A%20-%202-3%20Moves/solution.cpp) |
+| 1717C | [Madoka and Formal Statement](https://codeforces.com/contest/1717/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1717/C%20-%20Madoka%20and%20Formal%20Statement/solution.cpp) |
+| 1722D | [Line](https://codeforces.com/contest/1722/problem/D) | 1100 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1722/D%20-%20Line/solution.cpp) |
+| 1728A | [Colored Balls: Revisited](https://codeforces.com/contest/1728/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1728/A%20-%20Colored%20Balls%3A%20Revisited/solution.cpp) |
+| 1728B | [Best Permutation](https://codeforces.com/contest/1728/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1728/B%20-%20Best%20Permutation/solution.cpp) |
+| 1729B | [Decode String](https://codeforces.com/contest/1729/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1729/B%20-%20Decode%20String/solution.cpp) |
 
 ### hashing
 
@@ -335,8 +403,11 @@
 | 427A | [Police Recruits](https://codeforces.com/contest/427/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/427/A%20-%20Police%20Recruits/solution.cpp) |
 | 431A | [Black Square](https://codeforces.com/contest/431/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/431/A%20-%20Black%20Square/solution.cpp) |
 | 483A | [Counterexample ](https://codeforces.com/contest/483/problem/A) | 1100 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/483/A%20-%20Counterexample%20/solution.cpp) |
+| 496B | [Secret Combination](https://codeforces.com/contest/496/problem/B) | 1500 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/496/B%20-%20Secret%20Combination/solution.cpp) |
+| 544B | [Sea and Islands](https://codeforces.com/contest/544/problem/B) | 1400 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/544/B%20-%20Sea%20and%20Islands/solution.cpp) |
 | 570A | [Elections](https://codeforces.com/contest/570/problem/A) | 1100 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/570/A%20-%20Elections/solution.cpp) |
 | 677A | [Vanya and Fence](https://codeforces.com/contest/677/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/677/A%20-%20Vanya%20and%20Fence/solution.cpp) |
+| 706B | [Interesting drink](https://codeforces.com/contest/706/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/706/B%20-%20Interesting%20drink/solution.cpp) |
 | 709A | [Juicer](https://codeforces.com/contest/709/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/709/A%20-%20Juicer/solution.cpp) |
 | 731A | [Night at the Museum](https://codeforces.com/contest/731/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/731/A%20-%20Night%20at%20the%20Museum/solution.cpp) |
 | 732A | [Buy a Shovel](https://codeforces.com/contest/732/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/732/A%20-%20Buy%20a%20Shovel/solution.cpp) |
@@ -411,6 +482,21 @@
 | 1697A | [Parkway Walk](https://codeforces.com/contest/1697/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1697/A%20-%20Parkway%20Walk/solution.cpp) |
 | 1698B | [Rising Sand](https://codeforces.com/contest/1698/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1698/B%20-%20Rising%20Sand/solution.cpp) |
 | 1700B | [Palindromic Numbers ](https://codeforces.com/contest/1700/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1700/B%20-%20Palindromic%20Numbers%20/solution.cpp) |
+| 1703A | [YES or YES?](https://codeforces.com/contest/1703/problem/A) | 800 | [C++17 (GCC 9-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1703/A%20-%20YES%20or%20YES%3F/solution.cpp) |
+| 1703B | [ICPC Balloons](https://codeforces.com/contest/1703/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1703/B%20-%20ICPC%20Balloons/solution.cpp) |
+| 1703C | [Cypher](https://codeforces.com/contest/1703/problem/C) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1703/C%20-%20Cypher/solution.cpp) |
+| 1705B | [Mark the Dust Sweeper](https://codeforces.com/contest/1705/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1705/B%20-%20Mark%20the%20Dust%20Sweeper/solution.cpp) |
+| 1709A | [Three Doors](https://codeforces.com/contest/1709/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1709/A%20-%20Three%20Doors/solution.cpp) |
+| 1709B | [Also Try Minecraft](https://codeforces.com/contest/1709/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1709/B%20-%20Also%20Try%20Minecraft/solution.cpp) |
+| 1712A | [Wonderful Permutation](https://codeforces.com/contest/1712/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1712/A%20-%20Wonderful%20Permutation/solution.cpp) |
+| 1714A | [Everyone Loves to Sleep](https://codeforces.com/contest/1714/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1714/A%20-%20Everyone%20Loves%20to%20Sleep/solution.cpp) |
+| 1714B | [Remove Prefix](https://codeforces.com/contest/1714/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1714/B%20-%20Remove%20Prefix/solution.cpp) |
+| 1715C | [Monoblock](https://codeforces.com/contest/1715/problem/C) | 1700 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1715/C%20-%20Monoblock/solution.cpp) |
+| 1722A | [Spell Check](https://codeforces.com/contest/1722/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1722/A%20-%20Spell%20Check/solution.cpp) |
+| 1722B | [Colourblindness](https://codeforces.com/contest/1722/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1722/B%20-%20Colourblindness/solution.cpp) |
+| 1722C | [Word Game](https://codeforces.com/contest/1722/problem/C) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1722/C%20-%20Word%20Game/solution.cpp) |
+| 1728A | [Colored Balls: Revisited](https://codeforces.com/contest/1728/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1728/A%20-%20Colored%20Balls%3A%20Revisited/solution.cpp) |
+| 1739A | [Immobile Knight](https://codeforces.com/contest/1739/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1739/A%20-%20Immobile%20Knight/solution.cpp) |
 
 ### math
 
@@ -425,6 +511,7 @@
 | 230B | [T-primes](https://codeforces.com/contest/230/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/230/B%20-%20T-primes/solution.cpp) |
 | 272A | [Dima and Friends](https://codeforces.com/contest/272/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/272/A%20-%20Dima%20and%20Friends/solution.cpp) |
 | 294A | [Shaass and Oskols](https://codeforces.com/contest/294/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/294/A%20-%20Shaass%20and%20Oskols/solution.cpp) |
+| 476B | [Dreamoon and WiFi](https://codeforces.com/contest/476/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/476/B%20-%20Dreamoon%20and%20WiFi/solution.cpp) |
 | 483A | [Counterexample ](https://codeforces.com/contest/483/problem/A) | 1100 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/483/A%20-%20Counterexample%20/solution.cpp) |
 | 664A | [Complicated GCD](https://codeforces.com/contest/664/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/664/A%20-%20Complicated%20GCD/solution.cpp) |
 | 682A | [Alyona and Numbers](https://codeforces.com/contest/682/problem/A) | 1100 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/682/A%20-%20Alyona%20and%20Numbers/solution.cpp) |
@@ -439,9 +526,11 @@
 | 1099B | [Squares and Segments](https://codeforces.com/contest/1099/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1099/B%20-%20Squares%20and%20Segments/solution.cpp) |
 | 1209A | [Paint the Numbers](https://codeforces.com/contest/1209/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1209/A%20-%20Paint%20the%20Numbers/solution.cpp) |
 | 1245A | [Good ol' Numbers Coloring](https://codeforces.com/contest/1245/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1245/A%20-%20Good%20ol'%20Numbers%20Coloring/solution.cpp) |
+| 1294C | [Product of Three Numbers](https://codeforces.com/contest/1294/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1294/C%20-%20Product%20of%20Three%20Numbers/solution.cpp) |
 | 1296A | [Array with Odd Sum](https://codeforces.com/contest/1296/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1296/A%20-%20Array%20with%20Odd%20Sum/solution.cpp) |
 | 1296B | [Food Buying](https://codeforces.com/contest/1296/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1296/B%20-%20Food%20Buying/solution.cpp) |
 | 1360A | [Minimal Square](https://codeforces.com/contest/1360/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1360/A%20-%20Minimal%20Square/solution.cpp) |
+| 1360D | [Buying Shovels](https://codeforces.com/contest/1360/problem/D) | 1300 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1360/D%20-%20Buying%20Shovels/solution.cpp) |
 | 1366A | [Shovels and Swords](https://codeforces.com/contest/1366/problem/A) | 1100 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1366/A%20-%20Shovels%20and%20Swords/solution.cpp) |
 | 1370A | [Maximum GCD](https://codeforces.com/contest/1370/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1370/A%20-%20Maximum%20GCD/solution.cpp) |
 | 1389A | [LCM Problem](https://codeforces.com/contest/1389/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1389/A%20-%20LCM%20Problem/solution.cpp) |
@@ -457,7 +546,10 @@
 | 1520D | [Same Differences](https://codeforces.com/contest/1520/problem/D) | 1200 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1520/D%20-%20Same%20Differences/solution.cpp) |
 | 1529A | [Eshag Loves Big Arrays](https://codeforces.com/contest/1529/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1529/A%20-%20Eshag%20Loves%20Big%20Arrays/solution.cpp) |
 | 1537A | [Arithmetic Array](https://codeforces.com/contest/1537/problem/A) | 800 | [GNU C11](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1537/A%20-%20Arithmetic%20Array/solution.c) |
+| 1542A | [Odd Set](https://codeforces.com/contest/1542/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1542/A%20-%20Odd%20Set/solution.cpp) |
+| 1550A | [Find The Array](https://codeforces.com/contest/1550/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1550/A%20-%20Find%20The%20Array/solution.cpp) |
 | 1551A | [Polycarp and Coins](https://codeforces.com/contest/1551/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1551/A%20-%20Polycarp%20and%20Coins/solution.cpp) |
+| 1557A | [Ezzat and Two Subsequences](https://codeforces.com/contest/1557/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1557/A%20-%20Ezzat%20and%20Two%20Subsequences/solution.cpp) |
 | 1560B | [Who's Opposite?](https://codeforces.com/contest/1560/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1560/B%20-%20Who's%20Opposite%3F/solution.cpp) |
 | 1560C | [Infinity Table](https://codeforces.com/contest/1560/problem/C) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1560/C%20-%20Infinity%20Table/solution.cpp) |
 | 1566A | [Median Maximization](https://codeforces.com/contest/1566/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1566/A%20-%20Median%20Maximization/solution.cpp) |
@@ -505,6 +597,15 @@
 | 1699A | [The Third Three Number Problem](https://codeforces.com/contest/1699/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1699/A%20-%20The%20Third%20Three%20Number%20Problem/solution.cpp) |
 | 1700A | [Optimal Path](https://codeforces.com/contest/1700/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1700/A%20-%20Optimal%20Path/solution.cpp) |
 | 1700B | [Palindromic Numbers ](https://codeforces.com/contest/1700/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1700/B%20-%20Palindromic%20Numbers%20/solution.cpp) |
+| 1709A | [Three Doors](https://codeforces.com/contest/1709/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1709/A%20-%20Three%20Doors/solution.cpp) |
+| 1714A | [Everyone Loves to Sleep](https://codeforces.com/contest/1714/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1714/A%20-%20Everyone%20Loves%20to%20Sleep/solution.cpp) |
+| 1714E | [Add Modulo 10](https://codeforces.com/contest/1714/problem/E) | 1400 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1714/E%20-%20Add%20Modulo%2010/solution.cpp) |
+| 1715A | [Crossmarket](https://codeforces.com/contest/1715/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1715/A%20-%20Crossmarket/solution.cpp) |
+| 1715B | [Beautiful Array](https://codeforces.com/contest/1715/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1715/B%20-%20Beautiful%20Array/solution.cpp) |
+| 1715C | [Monoblock](https://codeforces.com/contest/1715/problem/C) | 1700 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1715/C%20-%20Monoblock/solution.cpp) |
+| 1716A | [2-3 Moves](https://codeforces.com/contest/1716/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1716/A%20-%202-3%20Moves/solution.cpp) |
+| 1716B | [Permutation Chain](https://codeforces.com/contest/1716/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1716/B%20-%20Permutation%20Chain/solution.cpp) |
+| 1729A | [Two Elevators](https://codeforces.com/contest/1729/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1729/A%20-%20Two%20Elevators/solution.cpp) |
 | 2195A | [Sieve of Erato67henes](https://codeforces.com/contest/2195/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/2195/A%20-%20Sieve%20of%20Erato67henes/solution.cpp) |
 
 ### number theory
@@ -525,14 +626,19 @@
 | 766B | [Mahmoud and a Triangle](https://codeforces.com/contest/766/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/766/B%20-%20Mahmoud%20and%20a%20Triangle/solution.cpp) |
 | 822A | [I'm bored with life](https://codeforces.com/contest/822/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/822/A%20-%20I'm%20bored%20with%20life/solution.cpp) |
 | 1245A | [Good ol' Numbers Coloring](https://codeforces.com/contest/1245/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1245/A%20-%20Good%20ol'%20Numbers%20Coloring/solution.cpp) |
+| 1294C | [Product of Three Numbers](https://codeforces.com/contest/1294/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1294/C%20-%20Product%20of%20Three%20Numbers/solution.cpp) |
+| 1360D | [Buying Shovels](https://codeforces.com/contest/1360/problem/D) | 1300 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1360/D%20-%20Buying%20Shovels/solution.cpp) |
 | 1370A | [Maximum GCD](https://codeforces.com/contest/1370/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1370/A%20-%20Maximum%20GCD/solution.cpp) |
 | 1389A | [LCM Problem](https://codeforces.com/contest/1389/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1389/A%20-%20LCM%20Problem/solution.cpp) |
 | 1485A | [Add and Divide](https://codeforces.com/contest/1485/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1485/A%20-%20Add%20and%20Divide/solution.cpp) |
 | 1605A | [A.M. Deviation](https://codeforces.com/contest/1605/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1605/A%20-%20A.M.%20Deviation/solution.cpp) |
+| 1606C | [Banknotes](https://codeforces.com/contest/1606/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1606/C%20-%20Banknotes/solution.cpp) |
 | 1609A | [Divide and Multiply](https://codeforces.com/contest/1609/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1609/A%20-%20Divide%20and%20Multiply/solution.cpp) |
 | 1617B | [GCD Problem](https://codeforces.com/contest/1617/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1617/B%20-%20GCD%20Problem/solution.cpp) |
 | 1656C | [Make Equal With Mod](https://codeforces.com/contest/1656/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1656/C%20-%20Make%20Equal%20With%20Mod/solution.cpp) |
 | 1679A | [AvtoBus](https://codeforces.com/contest/1679/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1679/A%20-%20AvtoBus/solution.cpp) |
+| 1712B | [Woeful Permutation](https://codeforces.com/contest/1712/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1712/B%20-%20Woeful%20Permutation/solution.cpp) |
+| 1714E | [Add Modulo 10](https://codeforces.com/contest/1714/problem/E) | 1400 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1714/E%20-%20Add%20Modulo%2010/solution.cpp) |
 | 2195A | [Sieve of Erato67henes](https://codeforces.com/contest/2195/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/2195/A%20-%20Sieve%20of%20Erato67henes/solution.cpp) |
 
 ### probabilities
@@ -540,6 +646,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 9A | [Die Roll](https://codeforces.com/contest/9/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/9/A%20-%20Die%20Roll/solution.cpp) |
+| 476B | [Dreamoon and WiFi](https://codeforces.com/contest/476/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/476/B%20-%20Dreamoon%20and%20WiFi/solution.cpp) |
 | 1459A | [Red-Blue Shuffle](https://codeforces.com/contest/1459/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1459/A%20-%20Red-Blue%20Shuffle/solution.cpp) |
 
 ### sortings
@@ -549,11 +656,13 @@
 | 12B | [Correct Solution?](https://codeforces.com/contest/12/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/12/B%20-%20Correct%20Solution%3F/solution.cpp) |
 | 16B | [Burglar and Matches](https://codeforces.com/contest/16/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/16/B%20-%20Burglar%20and%20Matches/solution.cpp) |
 | 405A | [Gravity Flip](https://codeforces.com/contest/405/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/405/A%20-%20Gravity%20Flip/solution.cpp) |
+| 580B | [Kefa and Company](https://codeforces.com/contest/580/problem/B) | 1500 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/580/B%20-%20Kefa%20and%20Company/solution.cpp) |
 | 766B | [Mahmoud and a Triangle](https://codeforces.com/contest/766/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/766/B%20-%20Mahmoud%20and%20a%20Triangle/solution.cpp) |
 | 768A | [Oath of the Night's Watch](https://codeforces.com/contest/768/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/768/A%20-%20Oath%20of%20the%20Night's%20Watch/solution.cpp) |
 | 807A | [Is it rated?](https://codeforces.com/contest/807/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/807/A%20-%20Is%20it%20rated%3F/solution.cpp) |
 | 810B | [Summer sell-off](https://codeforces.com/contest/810/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/810/B%20-%20Summer%20sell-off/solution.cpp) |
 | 1420A | [Cubes Sorting](https://codeforces.com/contest/1420/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1420/A%20-%20Cubes%20Sorting/solution.cpp) |
+| 1557A | [Ezzat and Two Subsequences](https://codeforces.com/contest/1557/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1557/A%20-%20Ezzat%20and%20Two%20Subsequences/solution.cpp) |
 | 1592A | [Gamer Hemose](https://codeforces.com/contest/1592/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1592/A%20-%20Gamer%20Hemose/solution.cpp) |
 | 1607C | [Minimum Extraction](https://codeforces.com/contest/1607/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1607/C%20-%20Minimum%20Extraction/solution.cpp) |
 | 1629A | [Download More RAM](https://codeforces.com/contest/1629/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1629/A%20-%20Download%20More%20RAM/solution.cpp) |
@@ -571,6 +680,10 @@
 | 1689A | [Lex String](https://codeforces.com/contest/1689/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1689/A%20-%20Lex%20String/solution.cpp) |
 | 1692B | [All Distinct](https://codeforces.com/contest/1692/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1692/B%20-%20All%20Distinct/solution.cpp) |
 | 1697B | [Promo](https://codeforces.com/contest/1697/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1697/B%20-%20Promo/solution.cpp) |
+| 1705A | [Mark the Photographer](https://codeforces.com/contest/1705/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1705/A%20-%20Mark%20the%20Photographer/solution.cpp) |
+| 1712C | [Sort Zero](https://codeforces.com/contest/1712/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1712/C%20-%20Sort%20Zero/solution.cpp) |
+| 1722D | [Line](https://codeforces.com/contest/1722/problem/D) | 1100 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1722/D%20-%20Line/solution.cpp) |
+| 1728A | [Colored Balls: Revisited](https://codeforces.com/contest/1728/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1728/A%20-%20Colored%20Balls%3A%20Revisited/solution.cpp) |
 
 ### strings
 
@@ -596,11 +709,17 @@
 | 1676C | [Most Similar Words](https://codeforces.com/contest/1676/problem/C) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1676/C%20-%20Most%20Similar%20Words/solution.cpp) |
 | 1682A | [Palindromic Indices](https://codeforces.com/contest/1682/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1682/A%20-%20Palindromic%20Indices/solution.cpp) |
 | 1684A | [Digit Minimization](https://codeforces.com/contest/1684/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1684/A%20-%20Digit%20Minimization/solution.cpp) |
+| 1703A | [YES or YES?](https://codeforces.com/contest/1703/problem/A) | 800 | [C++17 (GCC 9-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1703/A%20-%20YES%20or%20YES%3F/solution.cpp) |
+| 1703C | [Cypher](https://codeforces.com/contest/1703/problem/C) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1703/C%20-%20Cypher/solution.cpp) |
+| 1703D | [Double Strings](https://codeforces.com/contest/1703/problem/D) | 1100 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1703/D%20-%20Double%20Strings/solution.cpp) |
+| 1729B | [Decode String](https://codeforces.com/contest/1729/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1729/B%20-%20Decode%20String/solution.cpp) |
+| 1729C | [Jumping on Tiles](https://codeforces.com/contest/1729/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1729/C%20-%20Jumping%20on%20Tiles/solution.cpp) |
 
 ### trees
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 580C | [Kefa and Park](https://codeforces.com/contest/580/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/580/C%20-%20Kefa%20and%20Park/solution.cpp) |
 | 1663A | [Who Tested?](https://codeforces.com/contest/1663/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1663/A%20-%20Who%20Tested%3F/solution.cpp) |
 
 ### two pointers
@@ -608,6 +727,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 381A | [Sereja and Dima](https://codeforces.com/contest/381/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/381/A%20-%20Sereja%20and%20Dima/solution.cpp) |
+| 580B | [Kefa and Company](https://codeforces.com/contest/580/problem/B) | 1500 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/580/B%20-%20Kefa%20and%20Company/solution.cpp) |
 | 1646B | [Quality vs Quantity](https://codeforces.com/contest/1646/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1646/B%20-%20Quality%20vs%20Quantity/solution.cpp) |
 | 1656B | [Subtract Operation](https://codeforces.com/contest/1656/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1656/B%20-%20Subtract%20Operation/solution.cpp) |
 | 1676F | [Longest Strike](https://codeforces.com/contest/1676/problem/F) | 1300 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1676/F%20-%20Longest%20Strike/solution.cpp) |
