@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 554 | 27 |
+| 556 | 27 |
 
 ---
 
@@ -16,7 +16,7 @@
 - [Uncategorized](#uncategorized) (19)
 - [binary search](#binary-search) (26)
 - [bitmasks](#bitmasks) (21)
-- [brute force](#brute-force) (108)
+- [brute force](#brute-force) (110)
 - [combinatorics](#combinatorics) (12)
 - [constructive algorithms](#constructive-algorithms) (117)
 - [data structures](#data-structures) (37)
@@ -27,16 +27,16 @@
 - [games](#games) (16)
 - [geometry](#geometry) (13)
 - [graphs](#graphs) (4)
-- [greedy](#greedy) (234)
+- [greedy](#greedy) (235)
 - [hashing](#hashing) (2)
-- [implementation](#implementation) (213)
+- [implementation](#implementation) (214)
 - [interactive](#interactive) (3)
 - [math](#math) (228)
 - [number theory](#number-theory) (56)
 - [probabilities](#probabilities) (3)
 - [shortest paths](#shortest-paths) (2)
 - [sortings](#sortings) (80)
-- [strings](#strings) (52)
+- [strings](#strings) (53)
 - [trees](#trees) (5)
 - [two pointers](#two-pointers) (24)
 
@@ -148,6 +148,7 @@
 | 483A | [Counterexample ](https://codeforces.com/contest/483/problem/A) | 1100 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/483/A%20-%20Counterexample%20/solution.cpp) |
 | 496B | [Secret Combination](https://codeforces.com/contest/496/problem/B) | 1500 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/496/B%20-%20Secret%20Combination/solution.cpp) |
 | 546B | [Soldier and Badges](https://codeforces.com/contest/546/problem/B) | 1200 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/546/B%20-%20Soldier%20and%20Badges/solution.cpp) |
+| 631A | [Interview](https://codeforces.com/contest/631/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/631/A%20-%20Interview/solution.cpp) |
 | 732A | [Buy a Shovel](https://codeforces.com/contest/732/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/732/A%20-%20Buy%20a%20Shovel/solution.cpp) |
 | 799A | [Carrot Cakes](https://codeforces.com/contest/799/problem/A) | 1100 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/799/A%20-%20Carrot%20Cakes/solution.cpp) |
 | 855A | [Tom Riddle's Diary](https://codeforces.com/contest/855/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/855/A%20-%20Tom%20Riddle's%20Diary/solution.cpp) |
@@ -243,6 +244,7 @@
 | 2047B | [Replace Character](https://codeforces.com/contest/2047/problem/B) | 900 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/2047/B%20-%20Replace%20Character/solution.cpp) |
 | 2055C | [The Trail](https://codeforces.com/contest/2055/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/2055/C%20-%20The%20Trail/solution.cpp) |
 | 2060A | [Fibonacciness](https://codeforces.com/contest/2060/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/2060/A%20-%20Fibonacciness/solution.cpp) |
+| 2166A | [Same Difference](https://codeforces.com/contest/2166/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/2166/A%20-%20Same%20Difference/solution.cpp) |
 
 ### combinatorics
 
@@ -763,6 +765,7 @@
 | 2060B | [Farmer John's Card Game](https://codeforces.com/contest/2060/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/2060/B%20-%20Farmer%20John's%20Card%20Game/solution.cpp) |
 | 2063B | [Subsequence Update](https://codeforces.com/contest/2063/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/2063/B%20-%20Subsequence%20Update/solution.cpp) |
 | 2107A | [LRC and VIP](https://codeforces.com/contest/2107/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/2107/A%20-%20LRC%20and%20VIP/solution.cpp) |
+| 2166A | [Same Difference](https://codeforces.com/contest/2166/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/2166/A%20-%20Same%20Difference/solution.cpp) |
 
 ### hashing
 
@@ -808,6 +811,7 @@
 | 544B | [Sea and Islands](https://codeforces.com/contest/544/problem/B) | 1400 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/544/B%20-%20Sea%20and%20Islands/solution.cpp) |
 | 546B | [Soldier and Badges](https://codeforces.com/contest/546/problem/B) | 1200 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/546/B%20-%20Soldier%20and%20Badges/solution.cpp) |
 | 570A | [Elections](https://codeforces.com/contest/570/problem/A) | 1100 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/570/A%20-%20Elections/solution.cpp) |
+| 631A | [Interview](https://codeforces.com/contest/631/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/631/A%20-%20Interview/solution.cpp) |
 | 641A | [Little Artem and Grasshopper](https://codeforces.com/contest/641/problem/A) | 1000 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/641/A%20-%20Little%20Artem%20and%20Grasshopper/solution.cpp) |
 | 677A | [Vanya and Fence](https://codeforces.com/contest/677/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/677/A%20-%20Vanya%20and%20Fence/solution.cpp) |
 | 706B | [Interesting drink](https://codeforces.com/contest/706/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/706/B%20-%20Interesting%20drink/solution.cpp) |
@@ -1447,6 +1451,7 @@
 | 1927B | [Following the String](https://codeforces.com/contest/1927/problem/B) | 900 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1927/B%20-%20Following%20the%20String/solution.cpp) |
 | 1941C | [Rudolf and the Ugly String](https://codeforces.com/contest/1941/problem/C) | 900 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1941/C%20-%20Rudolf%20and%20the%20Ugly%20String/solution.cpp) |
 | 2047B | [Replace Character](https://codeforces.com/contest/2047/problem/B) | 900 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/2047/B%20-%20Replace%20Character/solution.cpp) |
+| 2166A | [Same Difference](https://codeforces.com/contest/2166/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/2166/A%20-%20Same%20Difference/solution.cpp) |
 
 ### trees
 
