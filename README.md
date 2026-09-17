@@ -6,19 +6,21 @@
 
 | Total Problems | Topics |
 |---|---|
-| 16 | 7 |
+| 31 | 9 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [brute force](#brute-force) (6)
-- [greedy](#greedy) (4)
-- [implementation](#implementation) (11)
-- [math](#math) (4)
+- [brute force](#brute-force) (9)
+- [constructive algorithms](#constructive-algorithms) (1)
+- [greedy](#greedy) (5)
+- [implementation](#implementation) (24)
+- [math](#math) (7)
 - [number theory](#number-theory) (1)
-- [sortings](#sortings) (2)
-- [strings](#strings) (3)
+- [sortings](#sortings) (3)
+- [strings](#strings) (5)
+- [two pointers](#two-pointers) (1)
 
 ---
 
@@ -29,9 +31,18 @@
 | 4A | [Watermelon](https://codeforces.com/contest/4/problem/A) | 800 | [GNU C11](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/4/A%20-%20Watermelon/solution.c) |
 | 231A | [Team](https://codeforces.com/contest/231/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/231/A%20-%20Team/solution.cpp) |
 | 236A | [Boy or Girl](https://codeforces.com/contest/236/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/236/A%20-%20Boy%20or%20Girl/solution.cpp) |
+| 268A | [Games](https://codeforces.com/contest/268/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/268/A%20-%20Games/solution.cpp) |
+| 732A | [Buy a Shovel](https://codeforces.com/contest/732/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/732/A%20-%20Buy%20a%20Shovel/solution.cpp) |
+| 1097A | [Gennady and a Card Game](https://codeforces.com/contest/1097/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1097/A%20-%20Gennady%20and%20a%20Card%20Game/solution.cpp) |
 | 1512A | [Spy Detected!](https://codeforces.com/contest/1512/problem/A) | 800 | [GNU C11](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1512/A%20-%20Spy%20Detected!/solution.c) |
 | 1520A | [Do Not Be Distracted!](https://codeforces.com/contest/1520/problem/A) | 800 | [GNU C11](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1520/A%20-%20Do%20Not%20Be%20Distracted!/solution.c) |
 | 1535A | [Fair Playoff](https://codeforces.com/contest/1535/problem/A) | 800 | [GNU C11](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1535/A%20-%20Fair%20Playoff/solution.c) |
+
+### constructive algorithms
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 732A | [Buy a Shovel](https://codeforces.com/contest/732/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/732/A%20-%20Buy%20a%20Shovel/solution.cpp) |
 
 ### greedy
 
@@ -39,6 +50,7 @@
 |---|---------|------------|----------|
 | 16B | [Burglar and Matches](https://codeforces.com/contest/16/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/16/B%20-%20Burglar%20and%20Matches/solution.cpp) |
 | 231A | [Team](https://codeforces.com/contest/231/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/231/A%20-%20Team/solution.cpp) |
+| 381A | [Sereja and Dima](https://codeforces.com/contest/381/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/381/A%20-%20Sereja%20and%20Dima/solution.cpp) |
 | 405A | [Gravity Flip](https://codeforces.com/contest/405/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/405/A%20-%20Gravity%20Flip/solution.cpp) |
 | 1537A | [Arithmetic Array](https://codeforces.com/contest/1537/problem/A) | 800 | [GNU C11](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1537/A%20-%20Arithmetic%20Array/solution.c) |
 
@@ -46,25 +58,41 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 12B | [Correct Solution?](https://codeforces.com/contest/12/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/12/B%20-%20Correct%20Solution%3F/solution.cpp) |
 | 16B | [Burglar and Matches](https://codeforces.com/contest/16/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/16/B%20-%20Burglar%20and%20Matches/solution.cpp) |
+| 59A | [Word](https://codeforces.com/contest/59/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/59/A%20-%20Word/solution.cpp) |
 | 112A | [Petya and Strings](https://codeforces.com/contest/112/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/112/A%20-%20Petya%20and%20Strings/solution.cpp) |
+| 228A | [Is your horseshoe on the other hoof?](https://codeforces.com/contest/228/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/228/A%20-%20Is%20your%20horseshoe%20on%20the%20other%20hoof%3F/solution.cpp) |
 | 236A | [Boy or Girl](https://codeforces.com/contest/236/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/236/A%20-%20Boy%20or%20Girl/solution.cpp) |
 | 263A | [Beautiful Matrix](https://codeforces.com/contest/263/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/263/A%20-%20Beautiful%20Matrix/solution.cpp) |
+| 266A | [Stones on the Table](https://codeforces.com/contest/266/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/266/A%20-%20Stones%20on%20the%20Table/solution.cpp) |
+| 344A | [Magnets](https://codeforces.com/contest/344/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/344/A%20-%20Magnets/solution.cpp) |
+| 381A | [Sereja and Dima](https://codeforces.com/contest/381/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/381/A%20-%20Sereja%20and%20Dima/solution.cpp) |
 | 405A | [Gravity Flip](https://codeforces.com/contest/405/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/405/A%20-%20Gravity%20Flip/solution.cpp) |
+| 427A | [Police Recruits](https://codeforces.com/contest/427/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/427/A%20-%20Police%20Recruits/solution.cpp) |
+| 431A | [Black Square](https://codeforces.com/contest/431/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/431/A%20-%20Black%20Square/solution.cpp) |
 | 677A | [Vanya and Fence](https://codeforces.com/contest/677/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/677/A%20-%20Vanya%20and%20Fence/solution.cpp) |
+| 731A | [Night at the Museum](https://codeforces.com/contest/731/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/731/A%20-%20Night%20at%20the%20Museum/solution.cpp) |
+| 732A | [Buy a Shovel](https://codeforces.com/contest/732/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/732/A%20-%20Buy%20a%20Shovel/solution.cpp) |
 | 734A | [Anton and Danik](https://codeforces.com/contest/734/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/734/A%20-%20Anton%20and%20Danik/solution.cpp) |
 | 791A | [Bear and Big Brother](https://codeforces.com/contest/791/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/791/A%20-%20Bear%20and%20Big%20Brother/solution.cpp) |
+| 1097A | [Gennady and a Card Game](https://codeforces.com/contest/1097/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1097/A%20-%20Gennady%20and%20a%20Card%20Game/solution.cpp) |
 | 1512A | [Spy Detected!](https://codeforces.com/contest/1512/problem/A) | 800 | [GNU C11](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1512/A%20-%20Spy%20Detected!/solution.c) |
 | 1520A | [Do Not Be Distracted!](https://codeforces.com/contest/1520/problem/A) | 800 | [GNU C11](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1520/A%20-%20Do%20Not%20Be%20Distracted!/solution.c) |
 | 1535A | [Fair Playoff](https://codeforces.com/contest/1535/problem/A) | 800 | [GNU C11](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1535/A%20-%20Fair%20Playoff/solution.c) |
+| 1560A | [Dislike of Threes](https://codeforces.com/contest/1560/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1560/A%20-%20Dislike%20of%20Threes/solution.cpp) |
+| 1560C | [Infinity Table](https://codeforces.com/contest/1560/problem/C) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1560/C%20-%20Infinity%20Table/solution.cpp) |
 
 ### math
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 4A | [Watermelon](https://codeforces.com/contest/4/problem/A) | 800 | [GNU C11](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/4/A%20-%20Watermelon/solution.c) |
+| 732A | [Buy a Shovel](https://codeforces.com/contest/732/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/732/A%20-%20Buy%20a%20Shovel/solution.cpp) |
 | 1519A | [Red and Blue Beans](https://codeforces.com/contest/1519/problem/A) | 800 | [GNU C11](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1519/A%20-%20Red%20and%20Blue%20Beans/solution.c) |
 | 1537A | [Arithmetic Array](https://codeforces.com/contest/1537/problem/A) | 800 | [GNU C11](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1537/A%20-%20Arithmetic%20Array/solution.c) |
+| 1560B | [Who's Opposite?](https://codeforces.com/contest/1560/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1560/B%20-%20Who's%20Opposite%3F/solution.cpp) |
+| 1560C | [Infinity Table](https://codeforces.com/contest/1560/problem/C) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1560/C%20-%20Infinity%20Table/solution.cpp) |
 | 2195A | [Sieve of Erato67henes](https://codeforces.com/contest/2195/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/2195/A%20-%20Sieve%20of%20Erato67henes/solution.cpp) |
 
 ### number theory
@@ -77,6 +105,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 12B | [Correct Solution?](https://codeforces.com/contest/12/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/12/B%20-%20Correct%20Solution%3F/solution.cpp) |
 | 16B | [Burglar and Matches](https://codeforces.com/contest/16/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/16/B%20-%20Burglar%20and%20Matches/solution.cpp) |
 | 405A | [Gravity Flip](https://codeforces.com/contest/405/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/405/A%20-%20Gravity%20Flip/solution.cpp) |
 
@@ -84,9 +113,17 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 59A | [Word](https://codeforces.com/contest/59/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/59/A%20-%20Word/solution.cpp) |
 | 112A | [Petya and Strings](https://codeforces.com/contest/112/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/112/A%20-%20Petya%20and%20Strings/solution.cpp) |
 | 236A | [Boy or Girl](https://codeforces.com/contest/236/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/236/A%20-%20Boy%20or%20Girl/solution.cpp) |
+| 731A | [Night at the Museum](https://codeforces.com/contest/731/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/731/A%20-%20Night%20at%20the%20Museum/solution.cpp) |
 | 734A | [Anton and Danik](https://codeforces.com/contest/734/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/734/A%20-%20Anton%20and%20Danik/solution.cpp) |
+
+### two pointers
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 381A | [Sereja and Dima](https://codeforces.com/contest/381/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/381/A%20-%20Sereja%20and%20Dima/solution.cpp) |
 
 ---
 
