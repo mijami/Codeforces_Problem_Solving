@@ -1,0 +1,27 @@
+<h2><a href="https://codeforces.com/contest/1802/problem/A" target="_blank" rel="noopener noreferrer">1802A — Likes</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 800 |
+| **Language** | C++20 (GCC 11-64) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1802A](https://codeforces.com/contest/1802/problem/A) |
+
+## Topics
+`greedy` `implementation`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">A. Likes</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>Nikita recently held a very controversial round, after which his contribution changed very quickly.</p><p>The announcement hung on the main page for $$$n$$$ seconds. In the $$$i$$$th second $$$|a_i|$$$th person either liked or removed the like (Nikita was lucky in this task and there are no dislikes). If $$$a_i  \gt  0$$$, then the $$$a_i$$$th person put a like. If $$$a_i  \lt  0$$$, then the person $$$-a_i$$$ removed the like. <span class="tex-font-style-bf">Each person put and removed the like no more than once. A person could not remove a like if he had not put it before.</span></p><p>Since Nikita's contribution became very bad after the round, he wanted to analyze how his contribution changed while the announcement was on the main page. He turned to the creator of the platform with a request to give him the sequence $$$a_1, a_2, \ldots, a_n$$$. But due to the imperfection of the platform, the sequence $$$a$$$ was shuffled.</p><p>You are given a shuffled sequence of $$$a$$$ that describes user activity. You need to tell for each moment from $$$1$$$ to $$$n$$$ what the maximum and minimum number of likes could be on the post at that moment.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line of input data contains one number $$$t$$$ ($$$1 \leqslant t \leqslant 1000$$$) — the number of test cases.</p><p>In the first line of test case, one number is given $$$n$$$ ($$$1 \leqslant n \leqslant 100$$$) — the number of seconds during which Nikita's announcement hung on the main page.</p><p>The next line contains $$$n$$$ numbers $$$b_1, b_2, b_3, \ldots, b_n$$$ ($$$1 \leqslant |b_i| \leqslant n$$$) — mixed array $$$a$$$. It is guaranteed that there exists such a permutation of $$$b$$$ that it is a correct sequence of events described in the condition.</p><p>It is guaranteed that the sum of $$$n$$$ for all input test cases does not exceed $$$10^4$$$.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, output two lines, each of which contains $$$n$$$ numbers.</p><p>In the first line, for each test case, output the maximum number of likes that Nikita could have at the announcement at the $$$i$$$th second.</p><p>In the second line, for each test case, output the minimum number of likes that Nikita could have at the announcement at the $$$i$$$th second.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id0005464657355781366" id="id0020020878018508692" class="input-output-copier">Copy</div></div><pre id="id0005464657355781366"><div class="test-example-line test-example-line-even test-example-line-0">5</div><div class="test-example-line test-example-line-odd test-example-line-1">3</div><div class="test-example-line test-example-line-odd test-example-line-1">1 2 -2</div><div class="test-example-line test-example-line-even test-example-line-2">2</div><div class="test-example-line test-example-line-even test-example-line-2">1 -1</div><div class="test-example-line test-example-line-odd test-example-line-3">6</div><div class="test-example-line test-example-line-odd test-example-line-3">4 3 -1 2 1 -2</div><div class="test-example-line test-example-line-even test-example-line-4">5</div><div class="test-example-line test-example-line-even test-example-line-4">4 2 -2 1 3</div><div class="test-example-line test-example-line-odd test-example-line-5">7</div><div class="test-example-line test-example-line-odd test-example-line-5">-1 6 -4 3 2 4 1</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id0033644339960802894" id="id0017375302093246447" class="input-output-copier">Copy</div></div><pre id="id0033644339960802894">1 2 1 
+1 0 1 
+1 0 
+1 0 
+1 2 3 4 3 2 
+1 0 1 0 1 2 
+1 2 3 4 3 
+1 0 1 2 3 
+1 2 3 4 5 4 3 
+1 0 1 0 1 2 3 
+</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the first test case, the maximum values are reached with the following permutation: $$$1, 2, -2$$$. And the minimum values for such: $$$2, -2, 1$$$.</p><p>In the third test case, all maximal values are reached with the following permutation: $$$4, 2, 3, 1, -1, -2$$$. And the minimum values for the next permutation: $$$2, -2, 1, -1, 3, 4$$$.</p></div>
