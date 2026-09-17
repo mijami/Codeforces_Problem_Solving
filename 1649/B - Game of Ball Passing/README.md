@@ -1,0 +1,21 @@
+<h2><a href="https://codeforces.com/contest/1649/problem/B" target="_blank" rel="noopener noreferrer">1649B — Game of Ball Passing</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 1300 |
+| **Language** | C++17 (GCC 7-32) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1649B](https://codeforces.com/contest/1649/problem/B) |
+
+## Topics
+`greedy` `implementation`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">B. Game of Ball Passing</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>Daniel is watching a football team playing a game during their training session. They want to improve their passing skills during that session.</p><p>The game involves $$$n$$$ players, making multiple passes towards each other. Unfortunately, since the balls were moving too fast, after the session Daniel is unable to know how many balls were involved during the game. The only thing he knows is the number of passes delivered by each player during all the session.</p><p>Find the minimum possible amount of balls that were involved in the game.</p></div><div class="input-specification"><div class="section-title">Input</div><p>There are several test cases in the input data. The first line contains a single integer $$$t$$$ ($$$1 \leq t \leq 5 \cdot 10^4$$$) — the number of test cases. This is followed by the test cases description.</p><p>The first line of each test case contains one integer $$$n$$$ ($$$2 \leq n \leq 10^5$$$) — the number of players.</p><p>The second line of the test case contains a sequence of integers $$$a_1, a_2, \ldots, a_n$$$ ($$$0 \leq a_i \leq 10^9$$$), where $$$a_i$$$ is the number of passes delivered by the $$$i$$$-th player.</p><p>It is guaranteed that the sum of $$$n$$$ over all test cases doesn't exceed $$$10^5$$$.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case print a single integer — the answer to the problem.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id0017878124568735876" id="id007351079536134304" class="input-output-copier">Copy</div></div><pre id="id0017878124568735876"><div class="test-example-line test-example-line-even test-example-line-0">4</div><div class="test-example-line test-example-line-odd test-example-line-1">4</div><div class="test-example-line test-example-line-odd test-example-line-1">2 3 3 2</div><div class="test-example-line test-example-line-even test-example-line-2">3</div><div class="test-example-line test-example-line-even test-example-line-2">1 5 2</div><div class="test-example-line test-example-line-odd test-example-line-3">2</div><div class="test-example-line test-example-line-odd test-example-line-3">0 0</div><div class="test-example-line test-example-line-even test-example-line-4">4</div><div class="test-example-line test-example-line-even test-example-line-4">1000000000 1000000000 1000000000 1000000000</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id0023677079713213744" id="id00041372993842163086" class="input-output-copier">Copy</div></div><pre id="id0023677079713213744">1
+2
+0
+1
+</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the first test case, with the only ball, the game can go like this:</p><p>$$$2 \rightarrow 1 \rightarrow 3 \rightarrow 4 \rightarrow 1 \rightarrow 2 \rightarrow 3 \rightarrow 4 \rightarrow 2 \rightarrow 3 \rightarrow 2$$$.</p><p>In the second test case, there is no possible way to play the game with only one ball. One possible way to play with two balls:</p><p>$$$2 \rightarrow 1 \rightarrow 2 \rightarrow 3 \rightarrow 2 \rightarrow 1$$$.</p><p>$$$2 \rightarrow 3 \rightarrow 2 \rightarrow 1$$$</p><p>In the third example, there were no passes, so $$$0$$$ balls are possible.</p></div>
