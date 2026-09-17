@@ -6,19 +6,19 @@
 
 | Total Problems | Topics |
 |---|---|
-| 534 | 27 |
+| 544 | 27 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [*special](#special) (3)
-- [Uncategorized](#uncategorized) (18)
-- [binary search](#binary-search) (24)
-- [bitmasks](#bitmasks) (20)
-- [brute force](#brute-force) (102)
-- [combinatorics](#combinatorics) (11)
-- [constructive algorithms](#constructive-algorithms) (111)
+- [Uncategorized](#uncategorized) (19)
+- [binary search](#binary-search) (25)
+- [bitmasks](#bitmasks) (21)
+- [brute force](#brute-force) (106)
+- [combinatorics](#combinatorics) (12)
+- [constructive algorithms](#constructive-algorithms) (113)
 - [data structures](#data-structures) (36)
 - [dfs and similar](#dfs-and-similar) (6)
 - [dp](#dp) (24)
@@ -27,18 +27,18 @@
 - [games](#games) (15)
 - [geometry](#geometry) (13)
 - [graphs](#graphs) (4)
-- [greedy](#greedy) (226)
+- [greedy](#greedy) (228)
 - [hashing](#hashing) (2)
-- [implementation](#implementation) (210)
+- [implementation](#implementation) (212)
 - [interactive](#interactive) (3)
-- [math](#math) (219)
-- [number theory](#number-theory) (51)
+- [math](#math) (224)
+- [number theory](#number-theory) (54)
 - [probabilities](#probabilities) (3)
 - [shortest paths](#shortest-paths) (2)
-- [sortings](#sortings) (76)
-- [strings](#strings) (51)
+- [sortings](#sortings) (77)
+- [strings](#strings) (52)
 - [trees](#trees) (5)
-- [two pointers](#two-pointers) (22)
+- [two pointers](#two-pointers) (23)
 
 ---
 
@@ -64,6 +64,7 @@
 | 1890C | [Qingshan Loves Strings 2](https://codeforces.com/contest/1890/problem/C) | Unrated | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1890/C%20-%20Qingshan%20Loves%20Strings%202/solution.cpp) |
 | 1890D | [Doremy's Connecting Plan](https://codeforces.com/contest/1890/problem/D) | Unrated | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1890/D%20-%20Doremy's%20Connecting%20Plan/solution.cpp) |
 | 1944C | [MEX Game 1](https://codeforces.com/contest/1944/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1944/C%20-%20MEX%20Game%201/solution.cpp) |
+| 2047C | [Swap Columns and Find a Path](https://codeforces.com/contest/2047/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/2047/C%20-%20Swap%20Columns%20and%20Find%20a%20Path/solution.cpp) |
 | 101492K | [Cutting Strings](https://codeforces.com/contest/101492/problem/K) | Unrated | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/101492/K%20-%20Cutting%20Strings/solution.cpp) |
 | 102152C | [Large GCD](https://codeforces.com/contest/102152/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/102152/C%20-%20Large%20GCD/solution.cpp) |
 | 103647A | [ Night Nesting](https://codeforces.com/contest/103647/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/103647/A%20-%20%20Night%20Nesting/solution.cpp) |
@@ -101,6 +102,7 @@
 | 1902B | [Getting Points](https://codeforces.com/contest/1902/problem/B) | 1100 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1902/B%20-%20Getting%20Points/solution.cpp) |
 | 1956A | [Nene's Game](https://codeforces.com/contest/1956/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1956/A%20-%20Nene's%20Game/solution.cpp) |
 | 1979C | [Earning on Bets](https://codeforces.com/contest/1979/problem/C) | 1200 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1979/C%20-%20Earning%20on%20Bets/solution.cpp) |
+| 2051D | [Counting Pairs](https://codeforces.com/contest/2051/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/2051/D%20-%20Counting%20Pairs/solution.cpp) |
 
 ### bitmasks
 
@@ -126,6 +128,7 @@
 | 1903B | [StORage room](https://codeforces.com/contest/1903/problem/B) | 1200 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1903/B%20-%20StORage%20room/solution.cpp) |
 | 1944B | [Equal XOR](https://codeforces.com/contest/1944/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1944/B%20-%20Equal%20XOR/solution.cpp) |
 | 1979B | [XOR Sequences](https://codeforces.com/contest/1979/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1979/B%20-%20XOR%20Sequences/solution.cpp) |
+| 2039C1 | [Shohag Loves XOR (Easy Version)](https://codeforces.com/contest/2039/problem/C1) | 1200 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/2039/C1%20-%20Shohag%20Loves%20XOR%20(Easy%20Version)/solution.cpp) |
 
 ### brute force
 
@@ -233,6 +236,10 @@
 | 1986A | [X Axis](https://codeforces.com/contest/1986/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1986/A%20-%20X%20Axis/solution.cpp) |
 | 1986B | [Matrix Stabilization](https://codeforces.com/contest/1986/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1986/B%20-%20Matrix%20Stabilization/solution.cpp) |
 | 1992A | [Only Pluses](https://codeforces.com/contest/1992/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1992/A%20-%20Only%20Pluses/solution.cpp) |
+| 2009A | [Minimize!](https://codeforces.com/contest/2009/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/2009/A%20-%20Minimize!/solution.cpp) |
+| 2009B | [osu!mania](https://codeforces.com/contest/2009/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/2009/B%20-%20osu!mania/solution.cpp) |
+| 2039C1 | [Shohag Loves XOR (Easy Version)](https://codeforces.com/contest/2039/problem/C1) | 1200 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/2039/C1%20-%20Shohag%20Loves%20XOR%20(Easy%20Version)/solution.cpp) |
+| 2047B | [Replace Character](https://codeforces.com/contest/2047/problem/B) | 900 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/2047/B%20-%20Replace%20Character/solution.cpp) |
 
 ### combinatorics
 
@@ -249,6 +256,7 @@
 | 1855B | [Longest Divisors Interval](https://codeforces.com/contest/1855/problem/B) | 900 | [C++17 (GCC 9-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1855/B%20-%20Longest%20Divisors%20Interval/solution.cpp) |
 | 1879C | [Make it Alternating](https://codeforces.com/contest/1879/problem/C) | 1300 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1879/C%20-%20Make%20it%20Alternating/solution.cpp) |
 | 1979C | [Earning on Bets](https://codeforces.com/contest/1979/problem/C) | 1200 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1979/C%20-%20Earning%20on%20Bets/solution.cpp) |
+| 2047B | [Replace Character](https://codeforces.com/contest/2047/problem/B) | 900 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/2047/B%20-%20Replace%20Character/solution.cpp) |
 
 ### constructive algorithms
 
@@ -365,6 +373,8 @@
 | 1983A | [Array Divisibility](https://codeforces.com/contest/1983/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1983/A%20-%20Array%20Divisibility/solution.cpp) |
 | 1984A | [Strange Splitting](https://codeforces.com/contest/1984/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1984/A%20-%20Strange%20Splitting/solution.cpp) |
 | 1992A | [Only Pluses](https://codeforces.com/contest/1992/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1992/A%20-%20Only%20Pluses/solution.cpp) |
+| 1992C | [Gorilla and Permutation](https://codeforces.com/contest/1992/problem/C) | 900 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1992/C%20-%20Gorilla%20and%20Permutation/solution.cpp) |
+| 2039A | [Shohag Loves Mod](https://codeforces.com/contest/2039/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/2039/A%20-%20Shohag%20Loves%20Mod/solution.cpp) |
 
 ### data structures
 
@@ -736,6 +746,8 @@
 | 1987C | [Basil's Garden](https://codeforces.com/contest/1987/problem/C) | 1200 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1987/C%20-%20Basil's%20Garden/solution.cpp) |
 | 1992A | [Only Pluses](https://codeforces.com/contest/1992/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1992/A%20-%20Only%20Pluses/solution.cpp) |
 | 1992B | [Angry Monk](https://codeforces.com/contest/1992/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1992/B%20-%20Angry%20Monk/solution.cpp) |
+| 2007A | [Dora's Set](https://codeforces.com/contest/2007/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/2007/A%20-%20Dora's%20Set/solution.cpp) |
+| 2047B | [Replace Character](https://codeforces.com/contest/2047/problem/B) | 900 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/2047/B%20-%20Replace%20Character/solution.cpp) |
 
 ### hashing
 
@@ -958,6 +970,8 @@
 | 1950D | [Product of Binary Decimals](https://codeforces.com/contest/1950/problem/D) | 1100 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1950/D%20-%20Product%20of%20Binary%20Decimals/solution.cpp) |
 | 1954B | [Make It Ugly](https://codeforces.com/contest/1954/problem/B) | 1200 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1954/B%20-%20Make%20It%20Ugly/solution.cpp) |
 | 1979A | [Guess the Maximum](https://codeforces.com/contest/1979/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1979/A%20-%20Guess%20the%20Maximum/solution.cpp) |
+| 2009B | [osu!mania](https://codeforces.com/contest/2009/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/2009/B%20-%20osu!mania/solution.cpp) |
+| 2047A | [Alyona and a Square Jigsaw Puzzle](https://codeforces.com/contest/2047/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/2047/A%20-%20Alyona%20and%20a%20Square%20Jigsaw%20Puzzle/solution.cpp) |
 
 ### interactive
 
@@ -1189,6 +1203,11 @@
 | 1987A | [Upload More RAM](https://codeforces.com/contest/1987/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1987/A%20-%20Upload%20More%20RAM/solution.cpp) |
 | 1992A | [Only Pluses](https://codeforces.com/contest/1992/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1992/A%20-%20Only%20Pluses/solution.cpp) |
 | 1992B | [Angry Monk](https://codeforces.com/contest/1992/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1992/B%20-%20Angry%20Monk/solution.cpp) |
+| 1992C | [Gorilla and Permutation](https://codeforces.com/contest/1992/problem/C) | 900 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1992/C%20-%20Gorilla%20and%20Permutation/solution.cpp) |
+| 2007A | [Dora's Set](https://codeforces.com/contest/2007/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/2007/A%20-%20Dora's%20Set/solution.cpp) |
+| 2009A | [Minimize!](https://codeforces.com/contest/2009/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/2009/A%20-%20Minimize!/solution.cpp) |
+| 2039C1 | [Shohag Loves XOR (Easy Version)](https://codeforces.com/contest/2039/problem/C1) | 1200 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/2039/C1%20-%20Shohag%20Loves%20XOR%20(Easy%20Version)/solution.cpp) |
+| 2047A | [Alyona and a Square Jigsaw Puzzle](https://codeforces.com/contest/2047/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/2047/A%20-%20Alyona%20and%20a%20Square%20Jigsaw%20Puzzle/solution.cpp) |
 | 2195A | [Sieve of Erato67henes](https://codeforces.com/contest/2195/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/2195/A%20-%20Sieve%20of%20Erato67henes/solution.cpp) |
 
 ### number theory
@@ -1245,6 +1264,9 @@
 | 1950D | [Product of Binary Decimals](https://codeforces.com/contest/1950/problem/D) | 1100 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1950/D%20-%20Product%20of%20Binary%20Decimals/solution.cpp) |
 | 1954C | [Long Multiplication](https://codeforces.com/contest/1954/problem/C) | 1200 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1954/C%20-%20Long%20Multiplication/solution.cpp) |
 | 1979C | [Earning on Bets](https://codeforces.com/contest/1979/problem/C) | 1200 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1979/C%20-%20Earning%20on%20Bets/solution.cpp) |
+| 2007A | [Dora's Set](https://codeforces.com/contest/2007/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/2007/A%20-%20Dora's%20Set/solution.cpp) |
+| 2039A | [Shohag Loves Mod](https://codeforces.com/contest/2039/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/2039/A%20-%20Shohag%20Loves%20Mod/solution.cpp) |
+| 2039C1 | [Shohag Loves XOR (Easy Version)](https://codeforces.com/contest/2039/problem/C1) | 1200 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/2039/C1%20-%20Shohag%20Loves%20XOR%20(Easy%20Version)/solution.cpp) |
 | 2195A | [Sieve of Erato67henes](https://codeforces.com/contest/2195/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/2195/A%20-%20Sieve%20of%20Erato67henes/solution.cpp) |
 
 ### probabilities
@@ -1342,6 +1364,7 @@
 | 1986C | [Update Queries](https://codeforces.com/contest/1986/problem/C) | 1100 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1986/C%20-%20Update%20Queries/solution.cpp) |
 | 1992A | [Only Pluses](https://codeforces.com/contest/1992/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1992/A%20-%20Only%20Pluses/solution.cpp) |
 | 1992B | [Angry Monk](https://codeforces.com/contest/1992/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1992/B%20-%20Angry%20Monk/solution.cpp) |
+| 2051D | [Counting Pairs](https://codeforces.com/contest/2051/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/2051/D%20-%20Counting%20Pairs/solution.cpp) |
 
 ### strings
 
@@ -1398,6 +1421,7 @@
 | 1927A | [Make it White](https://codeforces.com/contest/1927/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1927/A%20-%20Make%20it%20White/solution.cpp) |
 | 1927B | [Following the String](https://codeforces.com/contest/1927/problem/B) | 900 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1927/B%20-%20Following%20the%20String/solution.cpp) |
 | 1941C | [Rudolf and the Ugly String](https://codeforces.com/contest/1941/problem/C) | 900 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1941/C%20-%20Rudolf%20and%20the%20Ugly%20String/solution.cpp) |
+| 2047B | [Replace Character](https://codeforces.com/contest/2047/problem/B) | 900 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/2047/B%20-%20Replace%20Character/solution.cpp) |
 
 ### trees
 
@@ -1435,6 +1459,7 @@
 | 1873D | [1D Eraser](https://codeforces.com/contest/1873/problem/D) | 800 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1873/D%20-%201D%20Eraser/solution.cpp) |
 | 1896B | [AB Flipping](https://codeforces.com/contest/1896/problem/B) | 900 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1896/B%20-%20AB%20Flipping/solution.cpp) |
 | 1921D | [Very Different Array](https://codeforces.com/contest/1921/problem/D) | 1100 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1921/D%20-%20Very%20Different%20Array/solution.cpp) |
+| 2051D | [Counting Pairs](https://codeforces.com/contest/2051/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/2051/D%20-%20Counting%20Pairs/solution.cpp) |
 
 ---
 
