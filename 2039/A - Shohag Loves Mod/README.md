@@ -1,0 +1,19 @@
+<h2><a href="https://codeforces.com/contest/2039/problem/A" target="_blank" rel="noopener noreferrer">2039A — Shohag Loves Mod</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 800 |
+| **Language** | C++20 (GCC 13-64) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 2039A](https://codeforces.com/contest/2039/problem/A) |
+
+## Topics
+`constructive algorithms` `number theory`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">A. Shohag Loves Mod</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>Shohag has an integer $$$n$$$. Please help him find an <span class="tex-font-style-bf">increasing</span> integer sequence $$$1 \le a_1 \lt a_2 \lt \ldots \lt a_n \le 100$$$ such that $$$a_i \bmod i \neq a_j \bmod j$$$ $$$^{\text{∗}}$$$ is satisfied over all pairs $$$1 \le i \lt j \le n$$$.</p><p>It can be shown that such a sequence always exists under the given constraints.</p><div class="statement-footnote"><p>$$$^{\text{∗}}$$$$$$a \bmod b$$$ denotes the remainder of $$$a$$$ after division by $$$b$$$. For example, $$$7 \bmod 3 = 1, 8 \bmod 4 = 0$$$ and $$$69 \bmod 10 = 9$$$.</p></div></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains a single integer $$$t$$$ ($$$1 \le t \le 50$$$) — the number of test cases.</p><p>The first and only line of each test case contains an integer $$$n$$$ ($$$2 \le n \le 50$$$).</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, print $$$n$$$ integers — the integer sequence that satisfies the conditions mentioned in the statement. If there are multiple such sequences, output any.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id00195300412143101" id="id007359339908254349" class="input-output-copier">Copy</div></div><pre id="id00195300412143101"><div class="test-example-line test-example-line-even test-example-line-0">2</div><div class="test-example-line test-example-line-odd test-example-line-1">3</div><div class="test-example-line test-example-line-even test-example-line-2">6</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id003747756339621495" id="id003753535651820066" class="input-output-copier">Copy</div></div><pre id="id003747756339621495">2 7 8
+2 3 32 35 69 95
+</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the first test case, the sequence is increasing, values are from $$$1$$$ to $$$100$$$ and each pair of indices satisfies the condition mentioned in the statement:</p><ul> <li> For pair $$$(1, 2)$$$, $$$a_1 \bmod 1 = 2 \bmod 1 = 0$$$, and $$$a_2 \bmod 2 = 7 \bmod 2 = 1$$$. So they are different. </li><li> For pair $$$(1, 3)$$$, $$$a_1 \bmod 1 = 2 \bmod 1 = 0$$$, and $$$a_3 \bmod 3 = 8 \bmod 3 = 2$$$. So they are different. </li><li> For pair $$$(2, 3)$$$, $$$a_2 \bmod 2 = 7 \bmod 2 = 1$$$, and $$$a_3 \bmod 3 = 8 \bmod 3 = 2$$$. So they are different. </li></ul><p>Note that you do not necessarily have to print the exact same sequence, you can print any other sequence as long as it satisfies the necessary conditions.</p></div>
