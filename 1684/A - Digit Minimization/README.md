@@ -1,0 +1,20 @@
+<h2><a href="https://codeforces.com/contest/1684/problem/A" target="_blank" rel="noopener noreferrer">1684A — Digit Minimization</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 800 |
+| **Language** | C++17 (GCC 7-32) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1684A](https://codeforces.com/contest/1684/problem/A) |
+
+## Topics
+`constructive algorithms` `games` `math` `strings`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">A. Digit Minimization</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>There is an integer $$$n$$$ <span class="tex-font-style-bf">without zeros</span> in its decimal representation. Alice and Bob are playing a game with this integer. Alice starts first. They play the game in turns.</p><p>On her turn, Alice <span class="tex-font-style-bf">must</span> swap any two digits of the integer that are on different positions. Bob on his turn always removes the last digit of the integer. The game ends when there is only one digit left.</p><p>You have to find the smallest integer Alice can get in the end, if she plays optimally.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The input consists of multiple test cases. The first line contains a single integer $$$t$$$ ($$$1 \le t \le 10^4$$$) — the number of test cases. Description of the test cases follows.</p><p>The first and the only line of each test case contains the integer $$$n$$$ ($$$10 \le n \le 10^9$$$) — the integer for the game. $$$n$$$ does not have zeros in its decimal representation.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case output a single integer — the smallest integer Alice can get in the end of the game.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id005025985880152789" id="id008838619429719998" class="input-output-copier">Copy</div></div><pre id="id005025985880152789"><div class="test-example-line test-example-line-even test-example-line-0">3</div><div class="test-example-line test-example-line-odd test-example-line-1">12</div><div class="test-example-line test-example-line-even test-example-line-2">132</div><div class="test-example-line test-example-line-odd test-example-line-3">487456398</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id009094890774404731" id="id003923339452255237" class="input-output-copier">Copy</div></div><pre id="id009094890774404731">2
+1
+3
+</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the first test case Alice has to swap $$$1$$$ and $$$2$$$. After that Bob removes the last digit, $$$1$$$, so the answer is $$$2$$$.</p><p>In the second test case Alice can swap $$$3$$$ and $$$1$$$: $$$312$$$. After that Bob deletes the last digit: $$$31$$$. Then Alice swaps $$$3$$$ and $$$1$$$: $$$13$$$ and Bob deletes $$$3$$$, so the answer is $$$1$$$.</p></div>
