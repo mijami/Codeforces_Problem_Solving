@@ -6,19 +6,19 @@
 
 | Total Problems | Topics |
 |---|---|
-| 360 | 25 |
+| 372 | 25 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [*special](#special) (3)
-- [Uncategorized](#uncategorized) (8)
+- [Uncategorized](#uncategorized) (9)
 - [binary search](#binary-search) (14)
 - [bitmasks](#bitmasks) (8)
-- [brute force](#brute-force) (69)
+- [brute force](#brute-force) (70)
 - [combinatorics](#combinatorics) (5)
-- [constructive algorithms](#constructive-algorithms) (66)
+- [constructive algorithms](#constructive-algorithms) (68)
 - [data structures](#data-structures) (26)
 - [dfs and similar](#dfs-and-similar) (2)
 - [dp](#dp) (9)
@@ -26,17 +26,17 @@
 - [games](#games) (6)
 - [geometry](#geometry) (8)
 - [graphs](#graphs) (1)
-- [greedy](#greedy) (136)
+- [greedy](#greedy) (143)
 - [hashing](#hashing) (2)
-- [implementation](#implementation) (167)
+- [implementation](#implementation) (169)
 - [interactive](#interactive) (2)
-- [math](#math) (137)
-- [number theory](#number-theory) (35)
+- [math](#math) (143)
+- [number theory](#number-theory) (36)
 - [probabilities](#probabilities) (3)
-- [sortings](#sortings) (41)
-- [strings](#strings) (37)
+- [sortings](#sortings) (44)
+- [strings](#strings) (39)
 - [trees](#trees) (2)
-- [two pointers](#two-pointers) (12)
+- [two pointers](#two-pointers) (13)
 
 ---
 
@@ -55,6 +55,7 @@
 | 1484A | [Prison Break](https://codeforces.com/contest/1484/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1484/A%20-%20Prison%20Break/solution.cpp) |
 | 1786C | [Monsters (easy version)](https://codeforces.com/contest/1786/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1786/C%20-%20Monsters%20(easy%20version)/solution.cpp) |
 | 1802C | [The Very Beautiful Blanket](https://codeforces.com/contest/1802/problem/C) | Unrated | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1802/C%20-%20The%20Very%20Beautiful%20Blanket/solution.cpp) |
+| 1831C | [Copil Copac Draws Trees](https://codeforces.com/contest/1831/problem/C) | Unrated | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1831/C%20-%20Copil%20Copac%20Draws%20Trees/solution.cpp) |
 | 101492K | [Cutting Strings](https://codeforces.com/contest/101492/problem/K) | Unrated | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/101492/K%20-%20Cutting%20Strings/solution.cpp) |
 | 102152C | [Large GCD](https://codeforces.com/contest/102152/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/102152/C%20-%20Large%20GCD/solution.cpp) |
 | 103647A | [ Night Nesting](https://codeforces.com/contest/103647/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/103647/A%20-%20%20Night%20Nesting/solution.cpp) |
@@ -166,6 +167,7 @@
 | 1810A | [Beautiful Sequence](https://codeforces.com/contest/1810/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1810/A%20-%20Beautiful%20Sequence/solution.cpp) |
 | 1821B | [Sort the Subarray](https://codeforces.com/contest/1821/problem/B) | 1100 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1821/B%20-%20Sort%20the%20Subarray/solution.cpp) |
 | 1822A | [TubeTube Feed](https://codeforces.com/contest/1822/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1822/A%20-%20TubeTube%20Feed/solution.cpp) |
+| 1832B | [Maximum Sum](https://codeforces.com/contest/1832/problem/B) | 1100 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1832/B%20-%20Maximum%20Sum/solution.cpp) |
 
 ### combinatorics
 
@@ -243,10 +245,12 @@
 | 1816B | [Grid Reconstruction](https://codeforces.com/contest/1816/problem/B) | 1000 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1816/B%20-%20Grid%20Reconstruction/solution.cpp) |
 | 1818B | [Indivisible](https://codeforces.com/contest/1818/problem/B) | 900 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1818/B%20-%20Indivisible/solution.cpp) |
 | 1822D | [Super-Permutation](https://codeforces.com/contest/1822/problem/D) | 1200 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1822/D%20-%20Super-Permutation/solution.cpp) |
+| 1828A | [Divisible Array](https://codeforces.com/contest/1828/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1828/A%20-%20Divisible%20Array/solution.cpp) |
 | 1831A | [Twin Permutations](https://codeforces.com/contest/1831/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1831/A%20-%20Twin%20Permutations/solution.cpp) |
 | 1831B | [Array merging](https://codeforces.com/contest/1831/problem/B) | 1000 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1831/B%20-%20Array%20merging/solution.cpp) |
 | 1837A | [Grasshopper on a Line](https://codeforces.com/contest/1837/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1837/A%20-%20Grasshopper%20on%20a%20Line/solution.cpp) |
 | 1837C | [Best Binary String](https://codeforces.com/contest/1837/problem/C) | 1000 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1837/C%20-%20Best%20Binary%20String/solution.cpp) |
+| 1838A | [Blackboard List](https://codeforces.com/contest/1838/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1838/A%20-%20Blackboard%20List/solution.cpp) |
 
 ### data structures
 
@@ -473,9 +477,16 @@
 | 1816B | [Grid Reconstruction](https://codeforces.com/contest/1816/problem/B) | 1000 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1816/B%20-%20Grid%20Reconstruction/solution.cpp) |
 | 1818A | [Politics](https://codeforces.com/contest/1818/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1818/A%20-%20Politics/solution.cpp) |
 | 1821B | [Sort the Subarray](https://codeforces.com/contest/1821/problem/B) | 1100 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1821/B%20-%20Sort%20the%20Subarray/solution.cpp) |
+| 1822E | [Making Anti-Palindromes](https://codeforces.com/contest/1822/problem/E) | 1600 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1822/E%20-%20Making%20Anti-Palindromes/solution.cpp) |
+| 1825A | [LuoTianyi and the Palindrome String](https://codeforces.com/contest/1825/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1825/A%20-%20LuoTianyi%20and%20the%20Palindrome%20String/solution.cpp) |
 | 1831B | [Array merging](https://codeforces.com/contest/1831/problem/B) | 1000 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1831/B%20-%20Array%20merging/solution.cpp) |
+| 1832C | [Contrast Value](https://codeforces.com/contest/1832/problem/C) | 1200 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1832/C%20-%20Contrast%20Value/solution.cpp) |
+| 1833B | [Restore the Weather](https://codeforces.com/contest/1833/problem/B) | 900 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1833/B%20-%20Restore%20the%20Weather/solution.cpp) |
+| 1833C | [Vlad Building Beautiful Array](https://codeforces.com/contest/1833/problem/C) | 800 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1833/C%20-%20Vlad%20Building%20Beautiful%20Array/solution.cpp) |
 | 1837B | [Comparison String](https://codeforces.com/contest/1837/problem/B) | 900 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1837/B%20-%20Comparison%20String/solution.cpp) |
 | 1837C | [Best Binary String](https://codeforces.com/contest/1837/problem/C) | 1000 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1837/C%20-%20Best%20Binary%20String/solution.cpp) |
+| 1839A | [The Good Array](https://codeforces.com/contest/1839/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1839/A%20-%20The%20Good%20Array/solution.cpp) |
+| 1839B | [Lamps](https://codeforces.com/contest/1839/problem/B) | 1100 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1839/B%20-%20Lamps/solution.cpp) |
 
 ### hashing
 
@@ -655,6 +666,8 @@
 | 1808A | [Lucky Numbers](https://codeforces.com/contest/1808/problem/A) | 900 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1808/A%20-%20Lucky%20Numbers/solution.cpp) |
 | 1818A | [Politics](https://codeforces.com/contest/1818/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1818/A%20-%20Politics/solution.cpp) |
 | 1822A | [TubeTube Feed](https://codeforces.com/contest/1822/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1822/A%20-%20TubeTube%20Feed/solution.cpp) |
+| 1832C | [Contrast Value](https://codeforces.com/contest/1832/problem/C) | 1200 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1832/C%20-%20Contrast%20Value/solution.cpp) |
+| 1839A | [The Good Array](https://codeforces.com/contest/1839/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1839/A%20-%20The%20Good%20Array/solution.cpp) |
 
 ### interactive
 
@@ -802,7 +815,13 @@
 | 1810B | [Candies](https://codeforces.com/contest/1810/problem/B) | 800 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1810/B%20-%20Candies/solution.cpp) |
 | 1821A | [Matching](https://codeforces.com/contest/1821/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1821/A%20-%20Matching/solution.cpp) |
 | 1822D | [Super-Permutation](https://codeforces.com/contest/1822/problem/D) | 1200 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1822/D%20-%20Super-Permutation/solution.cpp) |
+| 1822E | [Making Anti-Palindromes](https://codeforces.com/contest/1822/problem/E) | 1600 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1822/E%20-%20Making%20Anti-Palindromes/solution.cpp) |
+| 1828A | [Divisible Array](https://codeforces.com/contest/1828/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1828/A%20-%20Divisible%20Array/solution.cpp) |
+| 1828B | [Permutation Swap](https://codeforces.com/contest/1828/problem/B) | 900 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1828/B%20-%20Permutation%20Swap/solution.cpp) |
+| 1833C | [Vlad Building Beautiful Array](https://codeforces.com/contest/1833/problem/C) | 800 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1833/C%20-%20Vlad%20Building%20Beautiful%20Array/solution.cpp) |
 | 1837A | [Grasshopper on a Line](https://codeforces.com/contest/1837/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1837/A%20-%20Grasshopper%20on%20a%20Line/solution.cpp) |
+| 1838A | [Blackboard List](https://codeforces.com/contest/1838/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1838/A%20-%20Blackboard%20List/solution.cpp) |
+| 1839A | [The Good Array](https://codeforces.com/contest/1839/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1839/A%20-%20The%20Good%20Array/solution.cpp) |
 | 2195A | [Sieve of Erato67henes](https://codeforces.com/contest/2195/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/2195/A%20-%20Sieve%20of%20Erato67henes/solution.cpp) |
 
 ### number theory
@@ -843,6 +862,7 @@
 | 1789A | [Serval and Mocha's Array](https://codeforces.com/contest/1789/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1789/A%20-%20Serval%20and%20Mocha's%20Array/solution.cpp) |
 | 1810B | [Candies](https://codeforces.com/contest/1810/problem/B) | 800 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1810/B%20-%20Candies/solution.cpp) |
 | 1816A | [Ian Visits Mary](https://codeforces.com/contest/1816/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1816/A%20-%20Ian%20Visits%20Mary/solution.cpp) |
+| 1828B | [Permutation Swap](https://codeforces.com/contest/1828/problem/B) | 900 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1828/B%20-%20Permutation%20Swap/solution.cpp) |
 | 2195A | [Sieve of Erato67henes](https://codeforces.com/contest/2195/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/2195/A%20-%20Sieve%20of%20Erato67henes/solution.cpp) |
 
 ### probabilities
@@ -898,6 +918,9 @@
 | 1798A | [Showstopper](https://codeforces.com/contest/1798/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1798/A%20-%20Showstopper/solution.cpp) |
 | 1807G1 | [Subsequence Addition (Easy Version)](https://codeforces.com/contest/1807/problem/G1) | 1100 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1807/G1%20-%20Subsequence%20Addition%20(Easy%20Version)/solution.cpp) |
 | 1807G2 | [Subsequence Addition (Hard Version)](https://codeforces.com/contest/1807/problem/G2) | 1100 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1807/G2%20-%20Subsequence%20Addition%20(Hard%20Version)/solution.cpp) |
+| 1832B | [Maximum Sum](https://codeforces.com/contest/1832/problem/B) | 1100 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1832/B%20-%20Maximum%20Sum/solution.cpp) |
+| 1833B | [Restore the Weather](https://codeforces.com/contest/1833/problem/B) | 900 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1833/B%20-%20Restore%20the%20Weather/solution.cpp) |
+| 1839B | [Lamps](https://codeforces.com/contest/1839/problem/B) | 1100 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1839/B%20-%20Lamps/solution.cpp) |
 
 ### strings
 
@@ -940,6 +963,8 @@
 | 1796A | [Typical Interview Problem](https://codeforces.com/contest/1796/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1796/A%20-%20Typical%20Interview%20Problem/solution.cpp) |
 | 1800A | [Is It a Cat?](https://codeforces.com/contest/1800/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1800/A%20-%20Is%20It%20a%20Cat%3F/solution.cpp) |
 | 1807C | [Find and Replace](https://codeforces.com/contest/1807/problem/C) | 800 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1807/C%20-%20Find%20and%20Replace/solution.cpp) |
+| 1822E | [Making Anti-Palindromes](https://codeforces.com/contest/1822/problem/E) | 1600 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1822/E%20-%20Making%20Anti-Palindromes/solution.cpp) |
+| 1825A | [LuoTianyi and the Palindrome String](https://codeforces.com/contest/1825/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1825/A%20-%20LuoTianyi%20and%20the%20Palindrome%20String/solution.cpp) |
 
 ### trees
 
@@ -964,6 +989,7 @@
 | 1789B | [Serval and Inversion Magic](https://codeforces.com/contest/1789/problem/B) | 800 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1789/B%20-%20Serval%20and%20Inversion%20Magic/solution.cpp) |
 | 1791C | [Prepend and Append](https://codeforces.com/contest/1791/problem/C) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1791/C%20-%20Prepend%20and%20Append/solution.cpp) |
 | 1794C | [Scoring Subsequences](https://codeforces.com/contest/1794/problem/C) | 1300 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1794/C%20-%20Scoring%20Subsequences/solution.cpp) |
+| 1832B | [Maximum Sum](https://codeforces.com/contest/1832/problem/B) | 1100 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1832/B%20-%20Maximum%20Sum/solution.cpp) |
 
 ---
 
