@@ -1,0 +1,24 @@
+<h2><a href="https://codeforces.com/contest/1828/problem/A" target="_blank" rel="noopener noreferrer">1828A — Divisible Array</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 800 |
+| **Language** | C++20 (GCC 11-64) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1828A](https://codeforces.com/contest/1828/problem/A) |
+
+## Topics
+`constructive algorithms` `math`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">A. Divisible Array</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>You are given a positive integer $$$n$$$. Please find an array $$$a_1, a_2, \ldots, a_n$$$ that is perfect.</p><p>A perfect array $$$a_1, a_2, \ldots, a_n$$$ satisfies the following criteria: </p><ul> <li> $$$1 \le a_i \le 1000$$$ for all $$$1 \le i \le n$$$. </li><li> $$$a_i$$$ is divisible by $$$i$$$ for all $$$1 \le i \le n$$$. </li><li> $$$a_1 + a_2 + \ldots + a_n$$$ is divisible by $$$n$$$. </li></ul></div><div class="input-specification"><div class="section-title">Input</div><p>Each test contains multiple test cases. The first line contains the number of test cases $$$t$$$ ($$$1 \le t \le 200$$$). The description of the test cases follows.</p><p>The only line of each test case contains a single positive integer $$$n$$$ ($$$1 \le n \le 200$$$) — the length of the array $$$a$$$.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, output an array $$$a_1, a_2, \ldots, a_n$$$ that is perfect.</p><p>We can show that an answer always exists. If there are multiple solutions, print any.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id00785954815928282" id="id001260673331801767" class="input-output-copier">Copy</div></div><pre id="id00785954815928282"><div class="test-example-line test-example-line-even test-example-line-0">7</div><div class="test-example-line test-example-line-odd test-example-line-1">1</div><div class="test-example-line test-example-line-even test-example-line-2">2</div><div class="test-example-line test-example-line-odd test-example-line-3">3</div><div class="test-example-line test-example-line-even test-example-line-4">4</div><div class="test-example-line test-example-line-odd test-example-line-5">5</div><div class="test-example-line test-example-line-even test-example-line-6">6</div><div class="test-example-line test-example-line-odd test-example-line-7">7</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id002277781735301453" id="id006815909273491363" class="input-output-copier">Copy</div></div><pre id="id002277781735301453">1
+2 4
+1 2 3
+2 8 6 4
+3 4 9 4 5
+1 10 18 8 5 36
+3 6 21 24 10 6 14
+</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the third test case: </p><ul> <li> $$$a_1 = 1$$$ is divisible by $$$1$$$. </li><li> $$$a_2 = 2$$$ is divisible by $$$2$$$. </li><li> $$$a_3 = 3$$$ is divisible by $$$3$$$. </li><li> $$$a_1 + a_2 + a_3 = 1 + 2 + 3 = 6$$$ is divisible by $$$3$$$. </li></ul><p>In the fifth test case: </p><ul> <li> $$$a_1 = 3$$$ is divisible by $$$1$$$. </li><li> $$$a_2 = 4$$$ is divisible by $$$2$$$. </li><li> $$$a_3 = 9$$$ is divisible by $$$3$$$. </li><li> $$$a_4 = 4$$$ is divisible by $$$4$$$. </li><li> $$$a_5 = 5$$$ is divisible by $$$5$$$. </li><li> $$$a_1 + a_2 + a_3 + a_4 + a_5 = 3 + 4 + 9 + 4 + 5 = 25$$$ is divisible by $$$5$$$. </li></ul></div>
