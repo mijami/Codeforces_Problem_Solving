@@ -6,37 +6,37 @@
 
 | Total Problems | Topics |
 |---|---|
-| 504 | 27 |
+| 519 | 27 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [*special](#special) (3)
-- [Uncategorized](#uncategorized) (17)
-- [binary search](#binary-search) (22)
-- [bitmasks](#bitmasks) (17)
-- [brute force](#brute-force) (91)
+- [Uncategorized](#uncategorized) (18)
+- [binary search](#binary-search) (23)
+- [bitmasks](#bitmasks) (18)
+- [brute force](#brute-force) (97)
 - [combinatorics](#combinatorics) (10)
-- [constructive algorithms](#constructive-algorithms) (102)
-- [data structures](#data-structures) (33)
-- [dfs and similar](#dfs-and-similar) (4)
-- [dp](#dp) (17)
+- [constructive algorithms](#constructive-algorithms) (106)
+- [data structures](#data-structures) (34)
+- [dfs and similar](#dfs-and-similar) (5)
+- [dp](#dp) (23)
 - [dsu](#dsu) (1)
 - [expression parsing](#expression-parsing) (1)
-- [games](#games) (13)
+- [games](#games) (15)
 - [geometry](#geometry) (12)
-- [graphs](#graphs) (2)
-- [greedy](#greedy) (206)
+- [graphs](#graphs) (4)
+- [greedy](#greedy) (215)
 - [hashing](#hashing) (2)
-- [implementation](#implementation) (205)
+- [implementation](#implementation) (209)
 - [interactive](#interactive) (3)
-- [math](#math) (209)
-- [number theory](#number-theory) (48)
+- [math](#math) (214)
+- [number theory](#number-theory) (50)
 - [probabilities](#probabilities) (3)
-- [shortest paths](#shortest-paths) (1)
+- [shortest paths](#shortest-paths) (2)
 - [sortings](#sortings) (71)
-- [strings](#strings) (50)
+- [strings](#strings) (51)
 - [trees](#trees) (5)
 - [two pointers](#two-pointers) (22)
 
@@ -63,6 +63,7 @@
 | 1877B | [Helmets in Night Light](https://codeforces.com/contest/1877/problem/B) | Unrated | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1877/B%20-%20Helmets%20in%20Night%20Light/solution.cpp) |
 | 1890C | [Qingshan Loves Strings 2](https://codeforces.com/contest/1890/problem/C) | Unrated | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1890/C%20-%20Qingshan%20Loves%20Strings%202/solution.cpp) |
 | 1890D | [Doremy's Connecting Plan](https://codeforces.com/contest/1890/problem/D) | Unrated | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1890/D%20-%20Doremy's%20Connecting%20Plan/solution.cpp) |
+| 1944C | [MEX Game 1](https://codeforces.com/contest/1944/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1944/C%20-%20MEX%20Game%201/solution.cpp) |
 | 101492K | [Cutting Strings](https://codeforces.com/contest/101492/problem/K) | Unrated | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/101492/K%20-%20Cutting%20Strings/solution.cpp) |
 | 102152C | [Large GCD](https://codeforces.com/contest/102152/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/102152/C%20-%20Large%20GCD/solution.cpp) |
 | 103647A | [ Night Nesting](https://codeforces.com/contest/103647/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/103647/A%20-%20%20Night%20Nesting/solution.cpp) |
@@ -98,6 +99,7 @@
 | 1886B | [Fear of the Dark](https://codeforces.com/contest/1886/problem/B) | 1200 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1886/B%20-%20Fear%20of%20the%20Dark/solution.cpp) |
 | 1896C | [Matching Arrays](https://codeforces.com/contest/1896/problem/C) | 1400 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1896/C%20-%20Matching%20Arrays/solution.cpp) |
 | 1902B | [Getting Points](https://codeforces.com/contest/1902/problem/B) | 1100 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1902/B%20-%20Getting%20Points/solution.cpp) |
+| 1956A | [Nene's Game](https://codeforces.com/contest/1956/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1956/A%20-%20Nene's%20Game/solution.cpp) |
 
 ### bitmasks
 
@@ -120,6 +122,7 @@
 | 1870B | [Friendly Arrays](https://codeforces.com/contest/1870/problem/B) | 1200 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1870/B%20-%20Friendly%20Arrays/solution.cpp) |
 | 1875C | [Jellyfish and Green Apple](https://codeforces.com/contest/1875/problem/C) | 1400 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1875/C%20-%20Jellyfish%20and%20Green%20Apple/solution.cpp) |
 | 1903B | [StORage room](https://codeforces.com/contest/1903/problem/B) | 1200 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1903/B%20-%20StORage%20room/solution.cpp) |
+| 1944B | [Equal XOR](https://codeforces.com/contest/1944/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1944/B%20-%20Equal%20XOR/solution.cpp) |
 
 ### brute force
 
@@ -216,6 +219,12 @@
 | 1920A | [Satisfying Constraints](https://codeforces.com/contest/1920/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1920/A%20-%20Satisfying%20Constraints/solution.cpp) |
 | 1927C | [Choose the Different Ones!](https://codeforces.com/contest/1927/problem/C) | 1000 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1927/C%20-%20Choose%20the%20Different%20Ones!/solution.cpp) |
 | 1933C | [Turtle Fingers: Count the Values of k](https://codeforces.com/contest/1933/problem/C) | 1100 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1933/C%20-%20Turtle%20Fingers%3A%20Count%20the%20Values%20of%20k/solution.cpp) |
+| 1941B | [Rudolf and 121](https://codeforces.com/contest/1941/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1941/B%20-%20Rudolf%20and%20121/solution.cpp) |
+| 1948A | [Special Characters](https://codeforces.com/contest/1948/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1948/A%20-%20Special%20Characters/solution.cpp) |
+| 1948B | [Array Fix](https://codeforces.com/contest/1948/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1948/B%20-%20Array%20Fix/solution.cpp) |
+| 1948C | [Arrow Path](https://codeforces.com/contest/1948/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1948/C%20-%20Arrow%20Path/solution.cpp) |
+| 1950D | [Product of Binary Decimals](https://codeforces.com/contest/1950/problem/D) | 1100 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1950/D%20-%20Product%20of%20Binary%20Decimals/solution.cpp) |
+| 1956A | [Nene's Game](https://codeforces.com/contest/1956/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1956/A%20-%20Nene's%20Game/solution.cpp) |
 
 ### combinatorics
 
@@ -338,6 +347,10 @@
 | 1918B | [Minimize Inversions](https://codeforces.com/contest/1918/problem/B) | 900 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1918/B%20-%20Minimize%20Inversions/solution.cpp) |
 | 1927B | [Following the String](https://codeforces.com/contest/1927/problem/B) | 900 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1927/B%20-%20Following%20the%20String/solution.cpp) |
 | 1933D | [Turtle Tenacity: Continual Mods](https://codeforces.com/contest/1933/problem/D) | 1200 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1933/D%20-%20Turtle%20Tenacity%3A%20Continual%20Mods/solution.cpp) |
+| 1944B | [Equal XOR](https://codeforces.com/contest/1944/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1944/B%20-%20Equal%20XOR/solution.cpp) |
+| 1948A | [Special Characters](https://codeforces.com/contest/1948/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1948/A%20-%20Special%20Characters/solution.cpp) |
+| 1948C | [Arrow Path](https://codeforces.com/contest/1948/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1948/C%20-%20Arrow%20Path/solution.cpp) |
+| 1954A | [Painting the Ribbon](https://codeforces.com/contest/1954/problem/A) | 900 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1954/A%20-%20Painting%20the%20Ribbon/solution.cpp) |
 
 ### data structures
 
@@ -376,6 +389,7 @@
 | 1907B | [YetnotherrokenKeoard](https://codeforces.com/contest/1907/problem/B) | 1000 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1907/B%20-%20YetnotherrokenKeoard/solution.cpp) |
 | 1918B | [Minimize Inversions](https://codeforces.com/contest/1918/problem/B) | 900 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1918/B%20-%20Minimize%20Inversions/solution.cpp) |
 | 1921D | [Very Different Array](https://codeforces.com/contest/1921/problem/D) | 1100 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1921/D%20-%20Very%20Different%20Array/solution.cpp) |
+| 1956A | [Nene's Game](https://codeforces.com/contest/1956/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1956/A%20-%20Nene's%20Game/solution.cpp) |
 
 ### dfs and similar
 
@@ -385,6 +399,7 @@
 | 1598A | [Computer Game](https://codeforces.com/contest/1598/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1598/A%20-%20Computer%20Game/solution.cpp) |
 | 1829F | [Forever Winter](https://codeforces.com/contest/1829/problem/F) | 1300 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1829/F%20-%20Forever%20Winter/solution.cpp) |
 | 1861C | [Queries for the Array](https://codeforces.com/contest/1861/problem/C) | 1600 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1861/C%20-%20Queries%20for%20the%20Array/solution.cpp) |
+| 1948C | [Arrow Path](https://codeforces.com/contest/1948/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1948/C%20-%20Arrow%20Path/solution.cpp) |
 
 ### dp
 
@@ -407,6 +422,12 @@
 | 1879C | [Make it Alternating](https://codeforces.com/contest/1879/problem/C) | 1300 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1879/C%20-%20Make%20it%20Alternating/solution.cpp) |
 | 1923B | [Monsters Attack!](https://codeforces.com/contest/1923/problem/B) | 1100 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1923/B%20-%20Monsters%20Attack!/solution.cpp) |
 | 1926C | [Vlad and a Sum of Sum of Digits](https://codeforces.com/contest/1926/problem/C) | 1200 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1926/C%20-%20Vlad%20and%20a%20Sum%20of%20Sum%20of%20Digits/solution.cpp) |
+| 1937B | [Binary Path](https://codeforces.com/contest/1937/problem/B) | 1300 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1937/B%20-%20Binary%20Path/solution.cpp) |
+| 1941B | [Rudolf and 121](https://codeforces.com/contest/1941/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1941/B%20-%20Rudolf%20and%20121/solution.cpp) |
+| 1941C | [Rudolf and the Ugly String](https://codeforces.com/contest/1941/problem/C) | 900 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1941/C%20-%20Rudolf%20and%20the%20Ugly%20String/solution.cpp) |
+| 1948B | [Array Fix](https://codeforces.com/contest/1948/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1948/B%20-%20Array%20Fix/solution.cpp) |
+| 1948C | [Arrow Path](https://codeforces.com/contest/1948/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1948/C%20-%20Arrow%20Path/solution.cpp) |
+| 1950D | [Product of Binary Decimals](https://codeforces.com/contest/1950/problem/D) | 1100 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1950/D%20-%20Product%20of%20Binary%20Decimals/solution.cpp) |
 
 ### dsu
 
@@ -437,6 +458,8 @@
 | 1867C | [Salyg1n and the MEX Game](https://codeforces.com/contest/1867/problem/C) | 1300 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1867/C%20-%20Salyg1n%20and%20the%20MEX%20Game/solution.cpp) |
 | 1899A | [Game with Integers](https://codeforces.com/contest/1899/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1899/A%20-%20Game%20with%20Integers/solution.cpp) |
 | 1920B | [Summation Game](https://codeforces.com/contest/1920/problem/B) | 1100 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1920/B%20-%20Summation%20Game/solution.cpp) |
+| 1956A | [Nene's Game](https://codeforces.com/contest/1956/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1956/A%20-%20Nene's%20Game/solution.cpp) |
+| 1956B | [Nene and the Card Game](https://codeforces.com/contest/1956/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1956/B%20-%20Nene%20and%20the%20Card%20Game/solution.cpp) |
 
 ### geometry
 
@@ -461,6 +484,8 @@
 |---|---------|------------|----------|
 | 580C | [Kefa and Park](https://codeforces.com/contest/580/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/580/C%20-%20Kefa%20and%20Park/solution.cpp) |
 | 1829F | [Forever Winter](https://codeforces.com/contest/1829/problem/F) | 1300 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1829/F%20-%20Forever%20Winter/solution.cpp) |
+| 1944A | [Destroying Bridges](https://codeforces.com/contest/1944/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1944/A%20-%20Destroying%20Bridges/solution.cpp) |
+| 1948C | [Arrow Path](https://codeforces.com/contest/1948/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1948/C%20-%20Arrow%20Path/solution.cpp) |
 
 ### greedy
 
@@ -672,6 +697,15 @@
 | 1927C | [Choose the Different Ones!](https://codeforces.com/contest/1927/problem/C) | 1000 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1927/C%20-%20Choose%20the%20Different%20Ones!/solution.cpp) |
 | 1933A | [Turtle Puzzle: Rearrange and Negate](https://codeforces.com/contest/1933/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1933/A%20-%20Turtle%20Puzzle%3A%20Rearrange%20and%20Negate/solution.cpp) |
 | 1933D | [Turtle Tenacity: Continual Mods](https://codeforces.com/contest/1933/problem/D) | 1200 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1933/D%20-%20Turtle%20Tenacity%3A%20Continual%20Mods/solution.cpp) |
+| 1937B | [Binary Path](https://codeforces.com/contest/1937/problem/B) | 1300 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1937/B%20-%20Binary%20Path/solution.cpp) |
+| 1941B | [Rudolf and 121](https://codeforces.com/contest/1941/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1941/B%20-%20Rudolf%20and%20121/solution.cpp) |
+| 1941C | [Rudolf and the Ugly String](https://codeforces.com/contest/1941/problem/C) | 900 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1941/C%20-%20Rudolf%20and%20the%20Ugly%20String/solution.cpp) |
+| 1944A | [Destroying Bridges](https://codeforces.com/contest/1944/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1944/A%20-%20Destroying%20Bridges/solution.cpp) |
+| 1948B | [Array Fix](https://codeforces.com/contest/1948/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1948/B%20-%20Array%20Fix/solution.cpp) |
+| 1954A | [Painting the Ribbon](https://codeforces.com/contest/1954/problem/A) | 900 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1954/A%20-%20Painting%20the%20Ribbon/solution.cpp) |
+| 1954C | [Long Multiplication](https://codeforces.com/contest/1954/problem/C) | 1200 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1954/C%20-%20Long%20Multiplication/solution.cpp) |
+| 1956A | [Nene's Game](https://codeforces.com/contest/1956/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1956/A%20-%20Nene's%20Game/solution.cpp) |
+| 1956B | [Nene and the Card Game](https://codeforces.com/contest/1956/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1956/B%20-%20Nene%20and%20the%20Card%20Game/solution.cpp) |
 
 ### hashing
 
@@ -889,6 +923,10 @@
 | 1933B | [Turtle Math: Fast Three Task](https://codeforces.com/contest/1933/problem/B) | 800 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1933/B%20-%20Turtle%20Math%3A%20Fast%20Three%20Task/solution.cpp) |
 | 1933C | [Turtle Fingers: Count the Values of k](https://codeforces.com/contest/1933/problem/C) | 1100 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1933/C%20-%20Turtle%20Fingers%3A%20Count%20the%20Values%20of%20k/solution.cpp) |
 | 1937A | [Shuffle Party](https://codeforces.com/contest/1937/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1937/A%20-%20Shuffle%20Party/solution.cpp) |
+| 1937B | [Binary Path](https://codeforces.com/contest/1937/problem/B) | 1300 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1937/B%20-%20Binary%20Path/solution.cpp) |
+| 1948B | [Array Fix](https://codeforces.com/contest/1948/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1948/B%20-%20Array%20Fix/solution.cpp) |
+| 1950D | [Product of Binary Decimals](https://codeforces.com/contest/1950/problem/D) | 1100 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1950/D%20-%20Product%20of%20Binary%20Decimals/solution.cpp) |
+| 1954B | [Make It Ugly](https://codeforces.com/contest/1954/problem/B) | 1200 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1954/B%20-%20Make%20It%20Ugly/solution.cpp) |
 
 ### interactive
 
@@ -1110,6 +1148,11 @@
 | 1933C | [Turtle Fingers: Count the Values of k](https://codeforces.com/contest/1933/problem/C) | 1100 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1933/C%20-%20Turtle%20Fingers%3A%20Count%20the%20Values%20of%20k/solution.cpp) |
 | 1933D | [Turtle Tenacity: Continual Mods](https://codeforces.com/contest/1933/problem/D) | 1200 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1933/D%20-%20Turtle%20Tenacity%3A%20Continual%20Mods/solution.cpp) |
 | 1937A | [Shuffle Party](https://codeforces.com/contest/1937/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1937/A%20-%20Shuffle%20Party/solution.cpp) |
+| 1941B | [Rudolf and 121](https://codeforces.com/contest/1941/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1941/B%20-%20Rudolf%20and%20121/solution.cpp) |
+| 1944A | [Destroying Bridges](https://codeforces.com/contest/1944/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1944/A%20-%20Destroying%20Bridges/solution.cpp) |
+| 1954A | [Painting the Ribbon](https://codeforces.com/contest/1954/problem/A) | 900 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1954/A%20-%20Painting%20the%20Ribbon/solution.cpp) |
+| 1954B | [Make It Ugly](https://codeforces.com/contest/1954/problem/B) | 1200 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1954/B%20-%20Make%20It%20Ugly/solution.cpp) |
+| 1954C | [Long Multiplication](https://codeforces.com/contest/1954/problem/C) | 1200 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1954/C%20-%20Long%20Multiplication/solution.cpp) |
 | 2195A | [Sieve of Erato67henes](https://codeforces.com/contest/2195/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/2195/A%20-%20Sieve%20of%20Erato67henes/solution.cpp) |
 
 ### number theory
@@ -1163,6 +1206,8 @@
 | 1933B | [Turtle Math: Fast Three Task](https://codeforces.com/contest/1933/problem/B) | 800 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1933/B%20-%20Turtle%20Math%3A%20Fast%20Three%20Task/solution.cpp) |
 | 1933C | [Turtle Fingers: Count the Values of k](https://codeforces.com/contest/1933/problem/C) | 1100 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1933/C%20-%20Turtle%20Fingers%3A%20Count%20the%20Values%20of%20k/solution.cpp) |
 | 1933D | [Turtle Tenacity: Continual Mods](https://codeforces.com/contest/1933/problem/D) | 1200 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1933/D%20-%20Turtle%20Tenacity%3A%20Continual%20Mods/solution.cpp) |
+| 1950D | [Product of Binary Decimals](https://codeforces.com/contest/1950/problem/D) | 1100 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1950/D%20-%20Product%20of%20Binary%20Decimals/solution.cpp) |
+| 1954C | [Long Multiplication](https://codeforces.com/contest/1954/problem/C) | 1200 | [C++20 (GCC 13-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1954/C%20-%20Long%20Multiplication/solution.cpp) |
 | 2195A | [Sieve of Erato67henes](https://codeforces.com/contest/2195/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/2195/A%20-%20Sieve%20of%20Erato67henes/solution.cpp) |
 
 ### probabilities
@@ -1178,6 +1223,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1869B | [2D Traveling](https://codeforces.com/contest/1869/problem/B) | 1100 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1869/B%20-%202D%20Traveling/solution.cpp) |
+| 1948C | [Arrow Path](https://codeforces.com/contest/1948/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1948/C%20-%20Arrow%20Path/solution.cpp) |
 
 ### sortings
 
@@ -1309,6 +1355,7 @@
 | 1907B | [YetnotherrokenKeoard](https://codeforces.com/contest/1907/problem/B) | 1000 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1907/B%20-%20YetnotherrokenKeoard/solution.cpp) |
 | 1927A | [Make it White](https://codeforces.com/contest/1927/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1927/A%20-%20Make%20it%20White/solution.cpp) |
 | 1927B | [Following the String](https://codeforces.com/contest/1927/problem/B) | 900 | [C++20 (GCC 11-64)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1927/B%20-%20Following%20the%20String/solution.cpp) |
+| 1941C | [Rudolf and the Ugly String](https://codeforces.com/contest/1941/problem/C) | 900 | [C++17 (GCC 7-32)](https://github.com/mijami/Codeforces_Problem_Solving/blob/HEAD/1941/C%20-%20Rudolf%20and%20the%20Ugly%20String/solution.cpp) |
 
 ### trees
 
